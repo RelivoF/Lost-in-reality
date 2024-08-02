@@ -1,0 +1,608 @@
+{
+  "general": {
+    "generateOverrideConfigs": {
+      "value": false,
+      "comment": "If true, then crafting and damage override config files, as well as language template files, will be dumped into the config folder at boot.  WARNING: this will overwrite your existing override config files!  Language files must be put into packs to function and will NOT overwrite anything."
+    },
+    "opSignEditingOnly": {
+      "value": false,
+      "comment": "If true, only OPs will be able to edit signs on servers.  Does not affect client worlds."
+    },
+    "opPickupVehiclesOnly": {
+      "value": false,
+      "comment": "If true, only OPs will be able to pick up vehicles with wrenches.  Does not affect client worlds."
+    },
+    "creativePickupVehiclesOnly": {
+      "value": false,
+      "comment": "If true, vehicles can only be picked up in creative mode."
+    },
+    "keyRequiredToStartVehicles": {
+      "value": false,
+      "comment": "If true, vehicles can only be started if the player has the key in their hand."
+    },
+    "noclipVehicles": {
+      "value": false,
+      "comment": "If true, vehicles will not be able to collide with blocks.  This also prevents them from moving if they do not have wheels on them, as otherwise they would phase through the ground into the void."
+    },
+    "chunkloadVehicles": {
+      "value": true,
+      "comment": "If true, vehicles will be chunkloaded when on roads/tracks.  This allows them to travel into unloaded chunks."
+    },
+    "doLegacyLightCompats": {
+      "value": true,
+      "comment": "If true, legacy compatibility code will be performed on all models to make their lights work with newer versions.  This code will significantly slow down boot times due to needing to parse all models on boot, however, packs may not have functional lights without it.  Choose wisely if you want speed or features."
+    },
+    "useHSV": {
+      "value": false,
+      "comment": "If enabled, the MTS dev mode will export color values as HSV instead of hex."
+    },
+    "allPlanesWithNav": {
+      "value": false,
+      "comment": "If true, all planes will have the ability to use beacons for navigation.  This is false to allow pack authors to define new/old planes that have this capability, but can be turned on if you don't care about realism."
+    },
+    "giveManualsOnJoin": {
+      "value": true,
+      "comment": "If true, then whenever a new player joins a world, they will be given a copy of the mod manuals."
+    },
+    "performModCompatFunctions": {
+      "value": true,
+      "comment": "If true, mod compatibility functions will be executed.  Should be true unless you're configuring a modpack and know and have addressed the various incompatibilities."
+    },
+    "devMode": {
+      "value": false,
+      "comment": "If enabled, MTS will allow access to the dev mode GUI while sitting in vehicles.  The GUI allows editing JSONs in-game without the need to restart."
+    },
+    "roadMaxLength": {
+      "value": 32,
+      "comment": "How long a single segment of road can be, in blocks.  While you can have longer segements, be aware they have more collision boxes and will generate more lag when broken or interacted with, and may not render if outside the chunk they are in.  Must be a whole number."
+    },
+    "aircraftSpeedFactor": {
+      "value": 0.35,
+      "comment": "Factor to apply to aircraft movement.  1 is the realistic value, but this makes vehicles move too fast for Minecraft. Adjust with caution."
+    },
+    "carSpeedFactor": {
+      "value": 0.35,
+      "comment": "Factor to apply to car movement.  1 is the realistic value, but this makes vehicles move too fast for Minecraft. Adjust with caution."
+    },
+    "fuelUsageFactor": {
+      "value": 1.0,
+      "comment": "Factor times which engines use fuel.  Change this if you think engines use fuel too fast or slow.  Setting it to 0 will disable fuel and allow engines to run without it."
+    },
+    "engineHoursFactor": {
+      "value": 1.0,
+      "comment": "Factor times which engines hours accumulate.  Change this if you want to adjust how fast engines wear out."
+    },
+    "climbSpeed": {
+      "value": 0.125,
+      "comment": "How far a vehicle will 'climb' blocks every tick when the wheels go into the ground.  Higher values make vehicles climb blocks quicker at the cost of smooth movement."
+    },
+    "gravityFactor": {
+      "value": 1.0,
+      "comment": "Factor for gravitational forces applied to vehicles.  Can be adjusted if you think cars are too 'floaty'.  Does not affect aircraft."
+    },
+    "maxFlightHeight": {
+      "value": 0.0,
+      "comment": "How high planes can fly.  Setting this to 0 (default) will allow planes to fly as high as their natural physics allows.  Useful if you want to cap vertical height for some reason."
+    },
+    "engineSpeedTempFactor": {
+      "value": 1.0,
+      "comment": "Factor for how RPM affects engine temp.  Higher values will make engines heat up quicker at higher RPMs."
+    },
+    "engineBiomeTempFactor": {
+      "value": 1.0,
+      "comment": "Factor for how biome temp affects engine temp.  Higher values will make engines heat up quicker in hotter biomes."
+    },
+    "rfToElectricityFactor": {
+      "value": 0.02,
+      "comment": "Factor for converting RF to internal electicity for vehicles.  Default value is 1/100, but can be adjusted."
+    },
+    "vehicleDeathDespawnTime": {
+      "value": 0.0,
+      "comment": "Time (in seconds) between when vehicles reach 0 health and they de-spawn.  Normally 0, which means they never de-spawn."
+    },
+    "seaLevel": {
+      "value": 63,
+      "comment": "The Y-Level that will be used to base altitude off of. Will also be factored in for engine performance calculations. Change only if you know what you're doing/ why this matters to engines/flying."
+    },
+    "engineDimensionBlacklist": {
+      "value": [],
+      "comment": "Blacklist of dimension names where engines will be prevented from being started.  Can be used to disable vehicles in specific dimensions.  Think Galacticraft, where you don't want folks flying planes on the moon."
+    },
+    "engineDimensionWhitelist": {
+      "value": [],
+      "comment": "Whitelist of dimension names where engines will only be alowed to work.  Overrides the blacklist if this exists."
+    },
+    "packVehicleScales": {
+      "value": {
+        "mtsofficialpack": 1.0,
+        "mts": 1.0
+      },
+      "comment": "Scale of all vehicles for this pack.  You probably won't want to change this, but if you do want the vehicles to be smaller for some reason, you can."
+    },
+    "packSpeedFactors": {
+      "value": {
+        "mtsofficialpack": 1.0,
+        "mts": 1.0
+      },
+      "comment": "A mapping of pack-speciifc speed factors.  These values will only apply to the vehicles in the pack modified.  This allows for speeding up packs with slower vehicles, or slowing down packs with fast vehicles for a more even play experience.  Note that this applies on top of the global speed factor.  So if that is set to 0.30, and a pack is set to 0.5, then the total speed factor will be 0.15"
+    },
+    "itemWeights": {
+      "comment1": "The following section is used for calculating item weights.  Any item that contains the text bits will have its weight multiplied by the following factor.",
+      "comment2": "This mass factors into vehicle performance, with particular emphasis on vehicle payloads.  Some defaults are presented here, but you can add/remove to your liking.",
+      "comment3": "Note that the part of the name searched is the item's registry name, NOT the in-game display name.  This is similar to what is in the /give command.",
+      "weights": {
+        "gold": 4.0,
+        "diamond": 4.0,
+        "ore": 2.5,
+        "iron": 4.0,
+        "coal": 2.0,
+        "stone": 1.5
+      }
+    },
+    "joinedPlayers": {
+      "value": [
+        "5e2065f7-4575-46b4-a9f9-4306b7998d8a"
+      ],
+      "comment": "Listing of players that have joined this world.  Players will be given the manual on their first join."
+    }
+  },
+  "damage": {
+    "bulletBlockBreaking": {
+      "value": true,
+      "comment": "Whether or not bullets/bombs can break blocks when they hit them.  This will also disable explosive block breakage (though not explosions themselves) and prevent incendiary bullets from setting blocks on fire."
+    },
+    "bulletExplosions": {
+      "value": true,
+      "comment": "Whether or not bullets/bombs will blow up.  This does not disable block breakage, but it will pretty much nerf all block mass-destruction weapons."
+    },
+    "vehicleBlockBreaking": {
+      "value": true,
+      "comment": "Whether or not vehicles can break blocks when they run into them.  If false, vehicles will simply stop when they hit blocks."
+    },
+    "vehicleDestruction": {
+      "value": true,
+      "comment": "Whether or not vehicles can be destroyed by ramming into blocks at high speeds.  Set this to false if you don't like loosing vehicles to badly-placed walls."
+    },
+    "vehicleExplosions": {
+      "value": true,
+      "comment": "Whether or not vehicles explode when crashed or shot down.  If this is false, vehicles will simply poof when they crash."
+    },
+    "creativePlayerDamage": {
+      "value": false,
+      "comment": "If true, damage from vehicles and guns will be applied to creative players.  Not sure why you'd want this, but it's here."
+    },
+    "wheelBreakage": {
+      "value": true,
+      "comment": "Whether or not wheels can be broken (go flat)."
+    },
+    "wheelDamageIgnoreVelocity": {
+      "value": false,
+      "comment": "Whether or not velocity is ignored when calculating wheel damage."
+    },
+    "allowExternalDamage": {
+      "value": false,
+      "comment": "Whether or not non-IV things can damage vehicles.  This is normally false, as external damage is a hassle for most people, but can be true if you want other mod's guns to be able to attack vehicles in addition to IV's."
+    },
+    "propellerDamageFactor": {
+      "value": 1.0,
+      "comment": "Factor for damage caused by a propeller."
+    },
+    "jetDamageFactor": {
+      "value": 1.0,
+      "comment": "Factor for damage caused by a jet engine."
+    },
+    "wheelDamageFactor": {
+      "value": 1.0,
+      "comment": "Factor for damage caused by wheels on vehicles."
+    },
+    "crashDamageFactor": {
+      "value": 1.0,
+      "comment": "Factor for damage caused by crashes."
+    },
+    "bulletDamageFactor": {
+      "value": 1.0,
+      "comment": "Factor for damage caused by bullets on vehicles."
+    },
+    "wheelDamageMinimumVelocity": {
+      "value": 0.2,
+      "comment": "Minimum velocity (blocks/second) which vehicles must be going to damage entities with their wheels."
+    },
+    "packBulletDamageFactors": {
+      "value": {
+        "mtsofficialpack": 1.0,
+        "mts": 1.0
+      },
+      "comment": "A mapping of pack-speciifc bullet damage factors.  These values will apply to all bullets in a pack when they hit something, be it a vehicle or entity."
+    }
+  },
+  "fuel": {
+    "comment1": "The following section is used for fuel configs for engines.  Each entry here is a single fuel type for engines.",
+    "comment2": "Inside each entry exist values for the potency of the fluids that can be considered to be that fuel type.",
+    "comment3": "You can make engines take different types of fluids for their fuels by editing these values.  See the in-game handbook for more information.",
+    "comment4": "If you are having troubles getting the name for a particular fluid, run the game with the mods you want and check the 'lastLoadedFluids' list.  This contains all the fluids that were present during the last run of the game.",
+    "comment5": "The first entry in the list is the registered fluid name, while the second entry will be the displayed name.  Only use the first name, as the second name changes based on game language settings.",
+    "fuels": {
+      "diesel": {
+        "creosote": 0.7,
+        "diesel": 1.0,
+        "lava": 1.0,
+        "oil": 0.5,
+        "biodiesel": 0.8
+      },
+      "furnace": {
+        "lava": 1.0
+      },
+      "avgas": {
+        "lava": 1.0,
+        "gasoline": 1.0
+      },
+      "gasoline": {
+        "lava": 1.0,
+        "gasoline": 1.0,
+        "ethanol": 0.85
+      }
+    },
+    "lastLoadedFluids": {
+      "seed_oil": "Seed Oil",
+      "oil_light": "Light Oil",
+      "epichlorohydrin": "Epichlorohydrin",
+      "yttrium_barium_cuprate": "Liquid Yttrium Barium Cuprate",
+      "glue": "Glue",
+      "nitrogen_dioxide": "Nitrogen Dioxide Gas",
+      "propane": "Propane Gas",
+      "nether_air": "Nether Air Gas",
+      "xenon": "Xenon Gas",
+      "green_sapphire_slurry": "Green Sapphire Slurry",
+      "borosilicate_glass": "Liquid Borosilicate Glass",
+      "nitrochlorobenzene": "2-Nitrochlorobenzene",
+      "ruthenium": "Liquid Ruthenium",
+      "refinery_gas": "Refinery Gas Gas",
+      "darmstadtium": "Liquid Darmstadtium",
+      "dye_brown": "Chemical Brown Dye",
+      "yttrium": "Liquid Yttrium",
+      "enriched_bacterial_sludge": "Enriched Bacterial Sludge",
+      "thorium": "Liquid Thorium",
+      "polyvinyl_acetate": "Polyvinyl Acetate",
+      "raw_growth_medium": "Raw Growth Medium",
+      "palladium": "Liquid Palladium",
+      "invar": "Liquid Invar",
+      "monochloramine": "Monochloramine Gas",
+      "betterquesting.placeholder": "Placeholder",
+      "helium_3": "Helium-3",
+      "molybdenum": "Liquid Molybdenum",
+      "rhodium": "Liquid Rhodium",
+      "methyl_acetate": "Methyl Acetate",
+      "steamcracked_butane": "Steam-Cracked Butane Gas",
+      "hydrocracked_ethylene": "Hydro-Cracked Ethylene Gas",
+      "milk": "Milk",
+      "bio_diesel": "Bio Diesel",
+      "bronze": "Liquid Bronze",
+      "ruridit": "Liquid Ruridit",
+      "plastic": "Liquid Polyethylene (PE)",
+      "hydrocracked_ethane": "Hydro-Cracked Ethane Gas",
+      "wood_vinegar": "Wood Vinegar",
+      "severely_steamcracked_light_fuel": "Severely Steam-Cracked Light Fuel",
+      "oil_heavy": "Heavy Oil",
+      "vanadium": "Liquid Vanadium",
+      "diluted_sulfuric_acid": "Diluted Sulfuric Acid",
+      "soldering_alloy": "Liquid Soldering Alloy",
+      "niobium_titanium": "Liquid Niobium-Titanium",
+      "redstone": "Liquid Redstone",
+      "ethenone": "Ethenone",
+      "dye_blue": "Chemical Blue Dye",
+      "liquid_air": "Liquid Air",
+      "titanium_tetrachloride": "Titanium Tetrachloride",
+      "dye_white": "Chemical White Dye",
+      "gallium_arsenide": "Liquid Gallium Arsenide",
+      "blue_alloy": "Liquid Blue Alloy",
+      "diphenyl_isophthalate": "Diphenyl Isophthalate",
+      "manganese": "Liquid Manganese",
+      "naquadah": "Liquid Naquadah",
+      "gold": "Liquid Gold",
+      "liquid_ender_air": "Liquid Ender Air",
+      "glyceryl_trinitrate": "Glyceryl Trinitrate",
+      "butane": "Butane Gas",
+      "rtm_alloy": "Liquid RTM Alloy",
+      "copper": "Liquid Copper",
+      "naquadah_alloy": "Liquid Naquadah Alloy",
+      "nitrosyl_chloride": "Nitrosyl Chloride Gas",
+      "dye_gray": "Chemical Gray Dye",
+      "electrum": "Liquid Electrum",
+      "biomass": "Biomass",
+      "antimony": "Liquid Antimony",
+      "potin": "Liquid Potin",
+      "liquid_nether_air": "Liquid Nether Air",
+      "fermented_biomass": "Fermented Biomass",
+      "dye_red": "Chemical Red Dye",
+      "helium": "Helium Gas",
+      "naquadah_enriched": "Liquid Enriched Naquadah",
+      "neodymium": "Liquid Neodymium",
+      "krypton": "Krypton",
+      "red_steel": "Liquid Red Steel",
+      "sodium_potassium": "Sodium Potassium",
+      "cyclohexane": "Cyclohexane",
+      "dye_purple": "Chemical Purple Dye",
+      "samarium": "Liquid Samarium",
+      "polychlorinated_biphenyl": "Polychlorinated Biphenyl (PCB)",
+      "drilling_fluid": "Drilling Fluid",
+      "rhodium_sulfate": "Rhodium Sulfate",
+      "plasma.helium": "Helium Plasma",
+      "severely_steamcracked_heavy_fuel": "Severely Steam-Cracked Heavy Fuel",
+      "dye_green": "Chemical Green Dye",
+      "ice": "Liquid Ice",
+      "steamcracked_propane": "Steam-Cracked Propane Gas",
+      "enriched_naquadah_waste": "Enriched Naquadah Waste",
+      "ethylene": "Ethylene Gas",
+      "lithium": "Liquid Lithium",
+      "plasma.iron": "Iron Plasma",
+      "impure_enriched_naquadah_solution": "Impure Enriched Naquadah Solution",
+      "bismuth_bronze": "Liquid Bismuth Bronze",
+      "oil_medium": "Raw Oil",
+      "cobalt_brass": "Liquid Cobalt Brass",
+      "lightly_hydrocracked_gas": "Lightly Hydro-Cracked Refinery Gas Gas",
+      "rubber": "Liquid Rubber",
+      "tin": "Liquid Tin",
+      "uranium_triplatinum": "Liquid Uranium Triplatinum",
+      "beryllium": "Liquid Beryllium",
+      "hsss": "Liquid HSS-S",
+      "diluted_hydrochloric_acid": "Diluted Hydrochloric Acid",
+      "sulfuric_gas": "Sulfuric Gas Gas",
+      "glass": "Liquid Glass",
+      "rhodium_plated_palladium": "Liquid Rhodium Plated Palladium",
+      "chrome": "Liquid Chrome",
+      "isoprene": "Isoprene",
+      "tungsten_carbide": "Liquid Tungstencarbide",
+      "sulfuric_naphtha": "Sulfuric Naphtha",
+      "stainless_steel": "Liquid Stainless Steel",
+      "nitrous_oxide": "Nitrous Oxide Gas",
+      "hydrocracked_butene": "Hydro-Cracked Butene Gas",
+      "aqua_regia": "Aqua Regia",
+      "arsenic": "Arsenic Vapor",
+      "hsse": "Liquid HSS-E",
+      "glycerol": "Glycerol",
+      "hssg": "Liquid HSS-G",
+      "tetrafluoroethylene": "Tetrafluoroethylene Gas",
+      "light_fuel": "Light Fuel",
+      "sulfuric_acid": "Sulfuric Acid",
+      "polytetrafluoroethylene": "Liquid Polytetrafluoroethylene (PTFE)",
+      "methane": "Methane Gas",
+      "bisphenol_a": "Bisphenol A",
+      "radon": "Radon Gas",
+      "bacterial_sludge": "Bacterial Sludge",
+      "cerium": "Liquid Cerium",
+      "neutronium": "Liquid Neutronium",
+      "dye_lime": "Chemical Lime Dye",
+      "gasoline": "Gasoline",
+      "ethyl_tertbutyl_ether": "Ethyl Tert-Butyl Ether",
+      "sulfuric_light_fuel": "Sulfuric Light Fuel",
+      "hydrocracked_propene": "Hydro-Cracked Propene Gas",
+      "iridium": "Liquid Iridium",
+      "black_bronze": "Liquid Black Bronze",
+      "wood_gas": "Wood Gas Gas",
+      "lava": "Lava",
+      "silicone_rubber": "Liquid Silicone Rubber",
+      "tin_alloy": "Liquid Tin Alloy",
+      "charcoal_byproducts": "Charcoal Byproducts",
+      "tetranitromethane": "Tetranitromethane",
+      "sterilized_growth_medium": "Sterilized Growth Medium",
+      "dye_magenta": "Chemical Magenta Dye",
+      "fluorine": "Fluorine Gas",
+      "nickel": "Liquid Nickel",
+      "gasoline_premium": "High Octane Gasoline",
+      "nitrogen": "Nitrogen Gas",
+      "uranium_235": "Liquid Uranium 235",
+      "epoxy": "Liquid Epoxy Resin",
+      "black_steel": "Liquid Black Steel",
+      "osmium": "Liquid Osmium",
+      "gallium": "Liquid Gallium",
+      "natural_gas": "Natural Gas Gas",
+      "chlorine": "Chlorine Gas",
+      "dye_orange": "Chemical Orange Dye",
+      "chloroform": "Chloroform",
+      "construction_foam": "Construction Foam",
+      "purified_water": "Purified Water",
+      "silicon": "Liquid Silicon",
+      "reinforced_epoxy_resin": "Liquid Fiber-Reinforced Epoxy Resin",
+      "dichlorobenzene": "Dichlorobenzene",
+      "iron": "Liquid Iron",
+      "sulfuric_copper_solution": "Sulfuric Copper Solution",
+      "salt_water": "Salt Water",
+      "lightly_steamcracked_light_fuel": "Lightly Steam-Cracked Light Fuel",
+      "tantalum": "Liquid Tantalum",
+      "chloromethane": "Chloromethane Gas",
+      "toluene": "Toluene",
+      "enriched_naquadah_solution": "Enriched Naquadah Solution",
+      "bismuth": "Liquid Bismuth",
+      "allyl_chloride": "Allyl Chloride",
+      "hydrocracked_butadiene": "Hydro-Cracked Butadiene Gas",
+      "heavy_fuel": "Heavy Fuel",
+      "steamcracked_butene": "Steam-Cracked Butene Gas",
+      "ultimet": "Liquid Ultimet",
+      "ammonia": "Ammonia Gas",
+      "lightly_hydrocracked_naphtha": "Lightly Hydro-Cracked Naphtha",
+      "propene": "Propene Gas",
+      "indium_concentrate": "Indium Concentrate",
+      "dye_light_gray": "Chemical Light Gray Dye",
+      "hydrogen": "Hydrogen Gas",
+      "americium": "Liquid Americium",
+      "glowstone": "Liquid Glowstone",
+      "uranium_hexafluoride": "Uranium Hexafluoride Gas",
+      "tungsten": "Liquid Tungsten",
+      "carbon": "Liquid Carbon",
+      "dye_cyan": "Chemical Cyan Dye",
+      "indium_tin_barium_titanium_cuprate": "Liquid Indium Tin Barium Titanium Cuprate",
+      "dye_light_blue": "Chemical Light Blue Dye",
+      "zinc": "Liquid Zinc",
+      "rose_gold": "Liquid Rose Gold",
+      "uranium_rhodium_dinaquadide": "Liquid Uranium Rhodium Dinaquadide",
+      "plasma.nickel": "Nickel Plasma",
+      "nitrobenzene": "Nitrobenzene Gas",
+      "severely_hydrocracked_light_fuel": "Severely Hydro-Cracked Light Fuel",
+      "tritium": "Tritium Gas",
+      "acidic_enriched_naquadah_solution": "Acidic Enriched Naquadah Solution",
+      "fish_oil": "Fish Oil",
+      "hydrochloric_acid": "Hydrochloric Acid",
+      "lanthanum": "Liquid Lanthanum",
+      "mutagen": "Mutagen",
+      "hypochlorous_acid": "Hypochlorous Acid",
+      "steamcracked_ethane": "Steam-Cracked Ethane Gas",
+      "magnesium": "Liquid Magnesium",
+      "hydrofluoric_acid": "Hydrofluoric Acid",
+      "severely_hydrocracked_gas": "Severely Hydro-Cracked Refinery Gas Gas",
+      "lightly_steamcracked_naphtha": "Lightly Steam-Cracked Naphtha",
+      "ender_air": "Ender Air Gas",
+      "vanadium_steel": "Liquid Vanadiumsteel",
+      "plasma.oxygen": "Oxygen Plasma",
+      "rocket_fuel": "Rocket Fuel",
+      "acidic_naquadria_solution": "Acidic Naquadria Solution",
+      "argon": "Argon Gas",
+      "phenol": "Phenol",
+      "silver": "Liquid Silver",
+      "nitro_fuel": "Cetane-Boosted Diesel",
+      "carbon_monoxide": "Carbon Monoxide Gas",
+      "steel": "Liquid Steel",
+      "diesel": "Diesel",
+      "naphthalene": "Naphthalene",
+      "sapphire_slurry": "Sapphire Slurry",
+      "cobalt": "Liquid Cobalt",
+      "severely_steamcracked_gas": "Severely Steam-Cracked Refinery Gas Gas",
+      "air": "Air Gas",
+      "raw_gasoline": "Raw Gasoline",
+      "vinyl_acetate": "Vinyl Acetate",
+      "ethanol": "Ethanol",
+      "magnalium": "Liquid Magnalium",
+      "vinyl_chloride": "Vinyl Chloride Gas",
+      "duranium": "Liquid Duranium",
+      "cumene": "Cumene Gas",
+      "manganese_phosphide": "Liquid Manganese Phosphide",
+      "blaze": "Liquid Blaze",
+      "europium": "Liquid Europium",
+      "niobium_nitride": "Liquid Niobium Nitride",
+      "niobium": "Liquid Niobium",
+      "liquid_oxygen": "Liquid Oxygen",
+      "dimethylhydrazine": "1,1-Dimethylhydrazine",
+      "methanol": "Methanol",
+      "steamcracked_ethylene": "Steam-Cracked Ethylene Gas",
+      "dimethylamine": "Dimethylamine Gas",
+      "butene": "Butene Gas",
+      "nitric_acid": "Nitric Acid",
+      "dinitrogen_tetroxide": "Dinitrogen Tetroxide Gas",
+      "mc_guffium_239": "McGuffium 239",
+      "ruby_slurry": "Ruby Slurry",
+      "ruthenium_trinium_americium_neutronate": "Liquid Ruthenium Trinium Americium Neutronate",
+      "styrene": "Styrene",
+      "severely_steamcracked_naphtha": "Severely Steam-Cracked Naphtha",
+      "lightly_hydrocracked_light_fuel": "Lightly Hydro-Cracked Light Fuel",
+      "lpg": "LPG",
+      "plasma.americium": "Americium Plasma",
+      "nitration_mixture": "Nitration Mixture",
+      "lutetium": "Liquid Lutetium",
+      "trinium": "Liquid Trinium",
+      "dissolved_calcium_acetate": "Dissolved Calcium Acetate",
+      "gelatin_mixture": "Gelatin Mixture",
+      "naphtha": "Naphtha",
+      "uu_matter": "UU-Matter",
+      "lead": "Liquid Lead",
+      "coal_tar": "Coal Tar",
+      "kanthal": "Liquid Kanthal",
+      "ethane": "Ethane Gas",
+      "dye_pink": "Chemical Pink Dye",
+      "samarium_iron_arsenic_oxide": "Liquid Samarium Iron Arsenic Oxide",
+      "naquadria_solution": "Naquadria Solution",
+      "pcb_coolant": "Dielectric PCB Coolant",
+      "plutonium_241": "Liquid Plutonium 241",
+      "osmiridium": "Liquid Osmiridium",
+      "sulfur_trioxide": "Sulfur Trioxide Gas",
+      "aluminium": "Liquid Aluminium",
+      "phosphoric_acid": "Phosphoric Acid",
+      "sodium_persulfate": "Sodium Persulfate",
+      "acetone": "Acetone",
+      "wood_tar": "Wood Tar",
+      "bacteria": "Bacteria",
+      "battery_alloy": "Liquid Battery Alloy",
+      "severely_hydrocracked_naphtha": "Severely Hydro-Cracked Naphtha",
+      "enriched_uranium_hexafluoride": "Enriched Uranium Hexafluoride Gas",
+      "lightly_steamcracked_heavy_fuel": "Lightly Steam-Cracked Heavy Fuel",
+      "nitric_oxide": "Nitric Oxide Gas",
+      "acetic_acid": "Acetic Acid",
+      "sulfuric_nickel_solution": "Sulfuric Nickel Solution",
+      "steamcracked_butadiene": "Steam-Cracked Butadiene Gas",
+      "butadiene": "Butadiene Gas",
+      "platinum": "Liquid Platinum",
+      "deuterium": "Deuterium Gas",
+      "fluoroantimonic_acid": "Fluoroantimonic Acid",
+      "butyraldehyde": "Butyraldehyde",
+      "enriched_naquadah_trinium_europium_duranide": "Liquid Enriched Naquadah Trinium Europium Duranide",
+      "oxygen": "Oxygen Gas",
+      "sulfuric_heavy_fuel": "Sulfuric Heavy Fuel",
+      "styrene_butadiene_rubber": "Liquid Styrene-Butadiene Rubber",
+      "chlorobenzene": "Chlorobenzene",
+      "nickel_zinc_ferrite": "Liquid Nickel Zinc Ferrite",
+      "polyvinyl_chloride": "Liquid Polyvinyl Chloride (PVC)",
+      "dye_yellow": "Chemical Yellow Dye",
+      "brass": "Liquid Brass",
+      "octane": "Octane",
+      "water": "Water",
+      "plutonium": "Liquid Plutonium 239",
+      "dichlorobenzidine": "3,3-Dichlorobenzidine",
+      "steamcracked_propene": "Steam-Cracked Propene Gas",
+      "cupronickel": "Liquid Cupronickel",
+      "hydrocracked_propane": "Hydro-Cracked Propane Gas",
+      "tungsten_steel": "Liquid Tungstensteel",
+      "lead_zinc_solution": "Lead-Zinc Solution",
+      "plasma.nitrogen": "Nitrogen Plasma",
+      "carbon_dioxide": "Carbon Dioxide Gas",
+      "polybenzimidazole": "Liquid Polybenzimidazole (PBI)",
+      "uranium": "Liquid Uranium 238",
+      "hydrocracked_butane": "Hydro-Cracked Butane Gas",
+      "coal_gas": "Coal Gas Gas",
+      "concrete": "Liquid Concrete",
+      "plasma.tin": "Tin Plasma",
+      "dye_black": "Chemical Black Dye",
+      "potassium": "Liquid Potassium",
+      "depleted_uranium_hexafluoride": "Depleted Uranium Hexafluoride Gas",
+      "blue_steel": "Liquid Blue Steel",
+      "mercury": "Mercury",
+      "titanium": "Liquid Titanium",
+      "sterling_silver": "Liquid Sterling Silver",
+      "hydrogen_sulfide": "Hydrogen Sulfide Gas",
+      "mercury_barium_calcium_cuprate": "Liquid Mercury Barium Calcium Cuprate",
+      "damascus_steel": "Liquid Damascus Steel",
+      "lightly_hydrocracked_heavy_fuel": "Lightly Hydro-Cracked Heavy Fuel",
+      "polycaprolactam": "Liquid Polycaprolactam",
+      "oil": "Oil",
+      "naquadria": "Liquid Naquadria",
+      "annealed_copper": "Liquid Annealed Copper",
+      "dimethylbenzene": "Dimethylbenzene",
+      "tritanium": "Liquid Tritanium",
+      "steam": "Steam Gas",
+      "wrought_iron": "Liquid Wrought Iron",
+      "severely_hydrocracked_heavy_fuel": "Severely Hydro-Cracked Heavy Fuel",
+      "diaminobenzidine": "3,3-Diaminobenzidine",
+      "polyphenylene_sulfide": "Liquid Polyphenylene Sulfide",
+      "creosote": "Creosote",
+      "phthalic_acid": "Phthalic Acid",
+      "plasma.argon": "Argon Plasma",
+      "neon": "Neon Gas",
+      "ethylbenzene": "Ethylbenzene",
+      "indium": "Liquid Indium",
+      "sulfur_dioxide": "Sulfur Dioxide Gas",
+      "acidic_osmium_solution": "Acidic Osmium Solution",
+      "liquid_helium": "Liquid Helium",
+      "benzene": "Benzene",
+      "polyvinyl_butyral": "Liquid Polyvinyl Butyral",
+      "vanadium_gallium": "Liquid Vanadium-Gallium",
+      "impure_naquadria_solution": "Impure Naquadria Solution",
+      "lightly_steamcracked_gas": "Lightly Steam-Cracked Refinery Gas Gas",
+      "iron_iii_chloride": "Iron III Chloride",
+      "distilled_water": "Distilled Water",
+      "red_alloy": "Liquid Red Alloy",
+      "indium_gallium_phosphide": "Liquid Indium Gallium Phosphide",
+      "nichrome": "Liquid Nichrome",
+      "naquadria_waste": "Naquadria Waste",
+      "magnesium_diboride": "Liquid Magnesium Diboride",
+      "lubricant": "Lubricant",
+      "dimethyldichlorosilane": "Dimethyldichlorosilane Gas"
+    }
+  }
+}

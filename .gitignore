@@ -1,0 +1,16 @@
+# folders
+cache
+downloads
+logs
+saves
+screenshots
+crash-reports
+journeymap
+
+# files
+*.curseclient
+options.txt
+usercache.json
+usernamecache.json
+crafttweaker.log
+

@@ -1,0 +1,136 @@
+{
+    "images":
+    {
+
+        "title":
+        {
+            "image" : "lostinreality:textures/gui/minecraft.png",
+            "posX" : 0,
+            "posY" : -5,
+            "width" : 150,
+            "height" : 75,
+            "alignment" : "column_logo"
+        }
+    },
+   
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "Play Alone",
+            "hoverText": "Alone Forever",
+            "posX" : 0,
+            "posY" : -150,
+            "width" : 150,
+            "height" : 25,
+            "texture": "lostinreality:textures/gui/btn3.png",
+            "alignment" :"column_bottom",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+       
+        "multiplayer":
+        {
+            "text" : "Play Together",
+            "hoverText": "Together Forever",
+            "posX" : 0,
+            "posY" : -120,
+            "width" : 150,
+            "height" : 25,
+            "texture": "lostinreality:textures/gui/btn3.png",
+            "alignment": "column_bottom",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+       
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "posX" : 0,
+            "posY" : -90,
+            "width" : 150,
+            "height" : 25,
+            "texture": "lostinreality:textures/gui/btn3.png",
+            "alignment": "column_bottom",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+           
+        "options":
+        {
+            "text" : "Options",
+            "posX" : 0,
+            "posY" : -60,
+            "width" : 73,
+            "height" : 25,
+            "texture": "lostinreality:textures/gui/btn4.png",
+            "alignment": "column_bottom",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+       
+        "quit":
+        {
+            "text" : "Leave us",
+            "hoverText": "Sure?",
+            "posX" : 77,
+            "posY" : -60,
+            "width" : 73,
+            "height" : 25,
+            "texture": "lostinreality:textures/gui/btn4.png",
+            "alignment": "column_bottom",
+            "action" :
+            {
+                "type" : "quit"
+            }
+        }
+    },
+   
+    "alignments":
+    {
+        "column_top": {
+			"factorWidth": 0.1,
+			"factorHeight": 0.0
+		},
+		"column_logo": {
+			"factorWidth": 0.1,
+			"factorHeight": 0.05
+		},
+		"column_center": {
+			"factorWidth": 0.1,
+			"factorHeight": 0.5
+		},
+		"column_bottom": {
+			"factorWidth": 0.1,
+			"factorHeight": 0.95
+		}
+    },
+   
+    "other":
+    {
+       
+        "background": {
+			"image": "",
+			"slideshow": {
+				"images": [
+					"lostinreality:background/bg1.png",
+					"lostinreality:background/bg2.png"
+				],
+				"displayDuration": 150,
+				"fadeDuration": 40
+			}
+		}
+    }
+}
