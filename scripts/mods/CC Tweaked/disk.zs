@@ -13,7 +13,24 @@ import mods.gregtech.recipe.RecipeMap;
 
 val assembler as RecipeMap = <recipemap:assembler>;
 
+// - Disk Drive -
+
+val diskDrive = <computercraft:peripheral>;
+
+// - Wires -
+
+val annealedCopperWire = <ore:wireGtSingleAnnealedCopper>;
+
+// - Plates -
+
+val stonePlate = <ore:plateStone>;
+
 // - Items - 
+
+// - Tools -
+
+val screwdriver = <ore:toolScrewdriver>;
+val wrench = <ore:toolWrench>;
 
 // - Dyes -
 
@@ -60,6 +77,10 @@ val lightBlueDisk = <computercraft:disk_expanded>.withTag({color: 10072818});
 val magentaDisk = <computercraft:disk_expanded>.withTag({color: 15040472});
 val orangeDisk = <computercraft:disk_expanded>.withTag({color: 15905331});
 val whiteDisk = <computercraft:disk_expanded>.withTag({color: 15790320});
+
+// - Circuit -
+
+val MVCircuit = <ore:circuitMv>;
 
 // - Recipes -
 
@@ -210,6 +231,14 @@ recipes.addShaped(whiteDisk, [
     [null, plasticPlate, null],
     [plasticPlate, magneticSteel, plasticPlate],
     [null, white, null]
+]);
+
+// - Disk Drive -
+
+recipes.addShaped(diskDrive, [
+    [stonePlate, screwdriver, stonePlate],
+    [annealedCopperWire, MVCircuit, wrench],
+    [stonePlate, magneticSteel, stonePlate]
 ]);
 
 // - Assembler coming soon -
