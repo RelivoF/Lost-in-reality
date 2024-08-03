@@ -18,6 +18,10 @@ val assembler as RecipeMap = <recipemap:assembler>;
 val computer = <computercraft:computer:0>;
 val advancedComputer = <computercraft:computer:16384>;
 
+// - Minecraft -
+
+val glass = <ore:paneGlass>;
+
 // - Items -
 
 // - Tools -
@@ -40,9 +44,7 @@ val goldPlate = <ore:plateGold>;
 val annealedCopperWire = <ore:wireGtSingleAnnealedCopper>;
 val blueAlloyWire = <ore:wireGtSingleBlueAlloy>;
 
-// - Minecraft -
 
-val glass = <minecraft:glass:0>;
 
 // - Recipes -
 
