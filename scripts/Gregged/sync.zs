@@ -121,5 +121,5 @@ assembler.recipeBuilder()
     .inputs(monitor, obsidianPlate, redstonePlate, ironBar)
     .outputs(treadmill)
     .duration(60)
-    .EUt(120)
+    .EUt(60)
     .buildAndRegister();

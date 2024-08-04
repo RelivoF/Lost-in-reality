@@ -102,6 +102,7 @@ recipes.remove(lightBlueDisk);
 recipes.remove(magentaDisk);
 recipes.remove(orangeDisk);
 recipes.remove(whiteDisk);
+recipes.remove(diskDrive);
 
 // - Crafting Table -
 
