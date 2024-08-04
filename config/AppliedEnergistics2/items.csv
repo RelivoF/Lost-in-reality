@@ -643,6 +643,8 @@ minecraft:record_strad, Music Disc
 minecraft:record_ward, Music Disc
 minecraft:record_11, Music Disc
 minecraft:record_wait, Music Disc
+carryon:tile_item, item.tile_item.name
+carryon:entity_item, item.entity_item.name
 forge:bucketfilled, %s Bucket
 appliedenergistics2:quartz_ore, Certus Quartz Ore
 appliedenergistics2:charged_quartz_ore, Charged Certus Quartz Ore
@@ -2214,328 +2216,6 @@ betterquesting:extra_life:1, Half Heart
 betterquesting:extra_life:2, Quarter Heart
 betterquesting:guide_book, Better Questing Starter Guide
 betterquesting:submit_station, Object Submission Station (OSS)
-bibliocraft:bookcase:0, Oak Bookcase
-bibliocraft:bookcase:1, Spruce Bookcase
-bibliocraft:bookcase:2, Birch Bookcase
-bibliocraft:bookcase:3, Jungle Bookcase
-bibliocraft:bookcase:4, Acacia Bookcase
-bibliocraft:bookcase:5, Dark Oak Bookcase
-bibliocraft:bookcase:6, Framed Bookcase
-bibliocraft:bookcasecreative:0, Oak Creative Bookcase
-bibliocraft:bookcasecreative:1, Spruce Creative Bookcase
-bibliocraft:bookcasecreative:2, Birch Creative Bookcase
-bibliocraft:bookcasecreative:3, Jungle Creative Bookcase
-bibliocraft:bookcasecreative:4, Acacia Creative Bookcase
-bibliocraft:bookcasecreative:5, Dark Oak Creative Bookcase
-bibliocraft:bookcasecreative:6, Framed Creative Bookcase
-bibliocraft:shelf:0, Oak Shelf
-bibliocraft:shelf:1, Spruce Shelf
-bibliocraft:shelf:2, Birch Shelf
-bibliocraft:shelf:3, Jungle Shelf
-bibliocraft:shelf:4, Acacia Shelf
-bibliocraft:shelf:5, Dark Oak Shelf
-bibliocraft:shelf:6, Framed Shelf
-bibliocraft:markerpole, tile.BiblioCraft:MarkerPole.name
-bibliocraft:clipboard, tile.BiblioCraft:Clipboard.name
-bibliocraft:lanterngold:0, Fancy Lantern
-bibliocraft:lanterngold:1, Fancy Lantern
-bibliocraft:lanterngold:2, Fancy Lantern
-bibliocraft:lanterngold:3, Fancy Lantern
-bibliocraft:lanterngold:4, Fancy Lantern
-bibliocraft:lanterngold:5, Fancy Lantern
-bibliocraft:lanterngold:6, Fancy Lantern
-bibliocraft:lanterngold:7, Fancy Lantern
-bibliocraft:lanterngold:8, Fancy Lantern
-bibliocraft:lanterngold:9, Fancy Lantern
-bibliocraft:lanterngold:10, Fancy Lantern
-bibliocraft:lanterngold:11, Fancy Lantern
-bibliocraft:lanterngold:12, Fancy Lantern
-bibliocraft:lanterngold:13, Fancy Lantern
-bibliocraft:lanterngold:14, Fancy Lantern
-bibliocraft:lanterngold:15, Fancy Lantern
-bibliocraft:lanterniron:0, Fancy Lantern
-bibliocraft:lanterniron:1, Fancy Lantern
-bibliocraft:lanterniron:2, Fancy Lantern
-bibliocraft:lanterniron:3, Fancy Lantern
-bibliocraft:lanterniron:4, Fancy Lantern
-bibliocraft:lanterniron:5, Fancy Lantern
-bibliocraft:lanterniron:6, Fancy Lantern
-bibliocraft:lanterniron:7, Fancy Lantern
-bibliocraft:lanterniron:8, Fancy Lantern
-bibliocraft:lanterniron:9, Fancy Lantern
-bibliocraft:lanterniron:10, Fancy Lantern
-bibliocraft:lanterniron:11, Fancy Lantern
-bibliocraft:lanterniron:12, Fancy Lantern
-bibliocraft:lanterniron:13, Fancy Lantern
-bibliocraft:lanterniron:14, Fancy Lantern
-bibliocraft:lanterniron:15, Fancy Lantern
-bibliocraft:lampgold:0, Fancy Lamp
-bibliocraft:lampgold:1, Fancy Lamp
-bibliocraft:lampgold:2, Fancy Lamp
-bibliocraft:lampgold:3, Fancy Lamp
-bibliocraft:lampgold:4, Fancy Lamp
-bibliocraft:lampgold:5, Fancy Lamp
-bibliocraft:lampgold:6, Fancy Lamp
-bibliocraft:lampgold:7, Fancy Lamp
-bibliocraft:lampgold:8, Fancy Lamp
-bibliocraft:lampgold:9, Fancy Lamp
-bibliocraft:lampgold:10, Fancy Lamp
-bibliocraft:lampgold:11, Fancy Lamp
-bibliocraft:lampgold:12, Fancy Lamp
-bibliocraft:lampgold:13, Fancy Lamp
-bibliocraft:lampgold:14, Fancy Lamp
-bibliocraft:lampgold:15, Fancy Lamp
-bibliocraft:lampiron:0, Fancy Lamp
-bibliocraft:lampiron:1, Fancy Lamp
-bibliocraft:lampiron:2, Fancy Lamp
-bibliocraft:lampiron:3, Fancy Lamp
-bibliocraft:lampiron:4, Fancy Lamp
-bibliocraft:lampiron:5, Fancy Lamp
-bibliocraft:lampiron:6, Fancy Lamp
-bibliocraft:lampiron:7, Fancy Lamp
-bibliocraft:lampiron:8, Fancy Lamp
-bibliocraft:lampiron:9, Fancy Lamp
-bibliocraft:lampiron:10, Fancy Lamp
-bibliocraft:lampiron:11, Fancy Lamp
-bibliocraft:lampiron:12, Fancy Lamp
-bibliocraft:lampiron:13, Fancy Lamp
-bibliocraft:lampiron:14, Fancy Lamp
-bibliocraft:lampiron:15, Fancy Lamp
-bibliocraft:furniturepaneler:0, Oak Furniture Paneler
-bibliocraft:furniturepaneler:1, Spruce Furniture Paneler
-bibliocraft:furniturepaneler:2, Birch Furniture Paneler
-bibliocraft:furniturepaneler:3, Jungle Furniture Paneler
-bibliocraft:furniturepaneler:4, Acacia Furniture Paneler
-bibliocraft:furniturepaneler:5, Dark Oak Furniture Paneler
-bibliocraft:furniturepaneler:6, Framed Furniture Paneler
-bibliocraft:framedchest:0, Oak Framed Chest
-bibliocraft:framedchest:1, Spruce Framed Chest
-bibliocraft:framedchest:2, Birch Framed Chest
-bibliocraft:framedchest:3, Jungle Framed Chest
-bibliocraft:framedchest:4, Acacia Framed Chest
-bibliocraft:framedchest:5, Dark Oak Framed Chest
-bibliocraft:framedchest:6, Framed Framed Chest
-bibliocraft:fancysign:0, Oak Fancy Sign
-bibliocraft:fancysign:1, Spruce Fancy Sign
-bibliocraft:fancysign:2, Birch Fancy Sign
-bibliocraft:fancysign:3, Jungle Fancy Sign
-bibliocraft:fancysign:4, Acacia Fancy Sign
-bibliocraft:fancysign:5, Dark Oak Fancy Sign
-bibliocraft:fancysign:6, Framed Fancy Sign
-bibliocraft:fancyworkbench:0, Oak Fancy Workbench
-bibliocraft:fancyworkbench:1, Spruce Fancy Workbench
-bibliocraft:fancyworkbench:2, Birch Fancy Workbench
-bibliocraft:fancyworkbench:3, Jungle Fancy Workbench
-bibliocraft:fancyworkbench:4, Acacia Fancy Workbench
-bibliocraft:fancyworkbench:5, Dark Oak Workbench
-bibliocraft:fancyworkbench:6, Framed Fancy Workbench
-bibliocraft:potionshelf:0, Oak Potion Shelf
-bibliocraft:potionshelf:1, Spruce Potion Shelf
-bibliocraft:potionshelf:2, Birch Potion Shelf
-bibliocraft:potionshelf:3, Jungle Potion Shelf
-bibliocraft:potionshelf:4, Acacia Potion Shelf
-bibliocraft:potionshelf:5, Dark Oak Potion Shelf
-bibliocraft:potionshelf:6, Framed Potion Shelf
-bibliocraft:toolrack:0, Oak Tool Rack
-bibliocraft:toolrack:1, Spruce Tool Rack
-bibliocraft:toolrack:2, Birch Tool Rack
-bibliocraft:toolrack:3, Jungle Tool Rack
-bibliocraft:toolrack:4, Acacia Tool Rack
-bibliocraft:toolrack:5, Dark Oak Tool Rack
-bibliocraft:toolrack:6, Framed Tool Rack
-bibliocraft:label:0, Oak Wood Label
-bibliocraft:label:1, Spruce Wood Label
-bibliocraft:label:2, Birch Wood Label
-bibliocraft:label:3, Jungle Wood Label
-bibliocraft:label:4, Acacia Label
-bibliocraft:label:5, Dark Oak Label
-bibliocraft:label:6, Framed Label
-bibliocraft:desk:0, Oak Desk
-bibliocraft:desk:1, Spruce Desk
-bibliocraft:desk:2, Birch Desk
-bibliocraft:desk:3, Jungle Desk
-bibliocraft:desk:4, Acacia Desk
-bibliocraft:desk:5, Dark Oak Desk
-bibliocraft:desk:6, Framed Desk
-bibliocraft:table:0, Oak Table
-bibliocraft:table:1, Spruce Table
-bibliocraft:table:2, Birch Table
-bibliocraft:table:3, Jungle Table
-bibliocraft:table:4, Acacia Table
-bibliocraft:table:5, Dark Oak Table
-bibliocraft:table:6, Framed Table
-bibliocraft:seat:0, Oak Seat
-bibliocraft:seat:1, Spruce Seat
-bibliocraft:seat:2, Birch Seat
-bibliocraft:seat:3, Jungle Seat
-bibliocraft:seat:4, Acacia Seat
-bibliocraft:seat:5, Dark Oak Seat
-bibliocraft:seat:6, Framed Seat
-bibliocraft:clock:0, Oak Clock
-bibliocraft:clock:1, Spruce Clock
-bibliocraft:clock:2, Birch Clock
-bibliocraft:clock:3, Jungle Clock
-bibliocraft:clock:4, Acacia Clock
-bibliocraft:clock:5, Dark Oak Clock
-bibliocraft:clock:6, Framed Clock
-bibliocraft:case:0, Oak Case
-bibliocraft:case:1, Spruce Case
-bibliocraft:case:2, Birch Case
-bibliocraft:case:3, Jungle Case
-bibliocraft:case:4, Acacia Case
-bibliocraft:case:5, Dark Oak Case
-bibliocraft:case:6, Framed Case
-bibliocraft:mapframe:0, Oak Map Frame
-bibliocraft:mapframe:1, Spruce Map Frame
-bibliocraft:mapframe:2, Birch Map Frame
-bibliocraft:mapframe:3, Jungle Map Frame
-bibliocraft:mapframe:4, Acacia Map Frame
-bibliocraft:mapframe:5, Dark Oak Map Frame
-bibliocraft:mapframe:6, Framed Map Frame
-bibliocraft:paintingframeflat:0, Oak Painting Frame
-bibliocraft:paintingframeflat:1, Spruce Painting Frame
-bibliocraft:paintingframeflat:2, Birch Painting Frame
-bibliocraft:paintingframeflat:3, Jungle Painting Frame
-bibliocraft:paintingframeflat:4, Acacia Painting Frame
-bibliocraft:paintingframeflat:5, Dark Oak Painting Frame
-bibliocraft:paintingframeflat:6, Framed Painting Frame
-bibliocraft:paintingframesimple:0, Oak Painting Frame
-bibliocraft:paintingframesimple:1, Spruce Painting Frame
-bibliocraft:paintingframesimple:2, Birch Painting Frame
-bibliocraft:paintingframesimple:3, Jungle Painting Frame
-bibliocraft:paintingframesimple:4, Acacia Painting Frame
-bibliocraft:paintingframesimple:5, Dark Oak Painting Frame
-bibliocraft:paintingframesimple:6, Framed Painting Frame
-bibliocraft:paintingframemiddle:0, Oak Painting Frame
-bibliocraft:paintingframemiddle:1, Spruce Painting Frame
-bibliocraft:paintingframemiddle:2, Birch Painting Frame
-bibliocraft:paintingframemiddle:3, Jungle Painting Frame
-bibliocraft:paintingframemiddle:4, Acacia Painting Frame
-bibliocraft:paintingframemiddle:5, Dark Oak Painting Frame
-bibliocraft:paintingframemiddle:6, Framed Painting Frame
-bibliocraft:paintingframefancy:0, Oak Painting Frame
-bibliocraft:paintingframefancy:1, Spruce Painting Frame
-bibliocraft:paintingframefancy:2, Birch Painting Frame
-bibliocraft:paintingframefancy:3, Jungle Painting Frame
-bibliocraft:paintingframefancy:4, Acacia Painting Frame
-bibliocraft:paintingframefancy:5, Dark Oak Painting Frame
-bibliocraft:paintingframefancy:6, Framed Painting Frame
-bibliocraft:paintingframeborderless:0, Oak Painting Frame
-bibliocraft:paintingframeborderless:1, Spruce Painting Frame
-bibliocraft:paintingframeborderless:2, Birch Painting Frame
-bibliocraft:paintingframeborderless:3, Jungle Painting Frame
-bibliocraft:paintingframeborderless:4, Acacia Painting Frame
-bibliocraft:paintingframeborderless:5, Dark Oak Painting Frame
-bibliocraft:paintingframeborderless:6, Framed Painting Frame
-bibliocraft:paintingpress, Painting Press
-bibliocraft:typewriter:0, White Typewriter
-bibliocraft:typewriter:1, Light Gray Typewriter
-bibliocraft:typewriter:2, Gray Typewriter
-bibliocraft:typewriter:3, Black Typewriter
-bibliocraft:typewriter:4, Red Typewriter
-bibliocraft:typewriter:5, Orange Typewriter
-bibliocraft:typewriter:6, Yellow Typewriter
-bibliocraft:typewriter:7, Lime Typewriter
-bibliocraft:typewriter:8, Green Typewriter
-bibliocraft:typewriter:9, Cyan Typewriter
-bibliocraft:typewriter:10, Light Blue Typewriter
-bibliocraft:typewriter:11, Blue Typewriter
-bibliocraft:typewriter:12, Purple Typewriter
-bibliocraft:typewriter:13, Magenta Typewriter
-bibliocraft:typewriter:14, Pink Typewriter
-bibliocraft:typewriter:15, Brown Typewriter
-bibliocraft:swordpedestal:0, Sword Pedestal
-bibliocraft:swordpedestal:1, Sword Pedestal
-bibliocraft:swordpedestal:2, Sword Pedestal
-bibliocraft:swordpedestal:3, Sword Pedestal
-bibliocraft:swordpedestal:4, Sword Pedestal
-bibliocraft:swordpedestal:5, Sword Pedestal
-bibliocraft:swordpedestal:6, Sword Pedestal
-bibliocraft:swordpedestal:7, Sword Pedestal
-bibliocraft:swordpedestal:8, Sword Pedestal
-bibliocraft:swordpedestal:9, Sword Pedestal
-bibliocraft:swordpedestal:10, Sword Pedestal
-bibliocraft:swordpedestal:11, Sword Pedestal
-bibliocraft:swordpedestal:12, Sword Pedestal
-bibliocraft:swordpedestal:13, Sword Pedestal
-bibliocraft:swordpedestal:14, Sword Pedestal
-bibliocraft:swordpedestal:15, Sword Pedestal
-bibliocraft:armorstand:0, Oak Armor Stand
-bibliocraft:armorstand:1, Spruce Armor Stand
-bibliocraft:armorstand:2, Birch Armor Stand
-bibliocraft:armorstand:3, Jungle Armor Stand
-bibliocraft:armorstand:4, Acacia Armor Stand
-bibliocraft:armorstand:5, Dark Oak Armor Stand
-bibliocraft:armorstand:6, Framed Armor Stand
-bibliocraft:bell, Desk Bell
-bibliocraft:typesettingtable, Typesetting Table
-bibliocraft:printingpress, Printing Press
-bibliocraft:cookiejar, Cookie Jar
-bibliocraft:dinnerplate, Dinner Plate
-bibliocraft:discrack, Disc Rack
-bibliocraft:compass, Compass
-bibliocraft:maptool, Drafting Compass
-bibliocraft:seatback1:0, Oak Seat Back
-bibliocraft:seatback1:1, Spruce Seat Back
-bibliocraft:seatback1:2, Birch Seat Back
-bibliocraft:seatback1:3, Jungle Seat Back
-bibliocraft:seatback1:4, Acacia Seat Back
-bibliocraft:seatback1:5, Dark Oak Seat Back
-bibliocraft:seatback1:6, Framed Seat Back
-bibliocraft:seatback2:0, Oak Seat Back
-bibliocraft:seatback2:1, Spruce Seat Back
-bibliocraft:seatback2:2, Birch Seat Back
-bibliocraft:seatback2:3, Jungle Seat Back
-bibliocraft:seatback2:4, Acacia Seat Back
-bibliocraft:seatback2:5, Dark Oak Seat Back
-bibliocraft:seatback2:6, Framed Seat Back
-bibliocraft:seatback3:0, Oak Seat Back
-bibliocraft:seatback3:1, Spruce Seat Back
-bibliocraft:seatback3:2, Birch Seat Back
-bibliocraft:seatback3:3, Jungle Seat Back
-bibliocraft:seatback3:4, Acacia Seat Back
-bibliocraft:seatback3:5, Dark Oak Seat Back
-bibliocraft:seatback3:6, Framed Seat Back
-bibliocraft:seatback4:0, Oak Seat Back
-bibliocraft:seatback4:1, Spruce Seat Back
-bibliocraft:seatback4:2, Birch Seat Back
-bibliocraft:seatback4:3, Jungle Seat Back
-bibliocraft:seatback4:4, Acacia Seat Back
-bibliocraft:seatback4:5, Dark Oak Seat Back
-bibliocraft:seatback4:6, Framed Seat Back
-bibliocraft:seatback5:0, Oak Seat Back
-bibliocraft:seatback5:1, Spruce Seat Back
-bibliocraft:seatback5:2, Birch Seat Back
-bibliocraft:seatback5:3, Jungle Seat Back
-bibliocraft:seatback5:4, Acacia Seat Back
-bibliocraft:seatback5:5, Dark Oak Seat Back
-bibliocraft:seatback5:6, Framed Seat Back
-bibliocraft:stockroomcatalog, Stockroom Catalog
-bibliocraft:plumbline, Plumb line
-bibliocraft:framingsaw, Framing Saw
-bibliocraft:framingboard, Framing Board
-bibliocraft:framingsheet, Framing Sheet
-bibliocraft:testeritem, ItemStack Name Tester
-bibliocraft:atlasbook:0, Atlas
-bibliocraft:atlasplate, Atlas Plate
-bibliocraft:deathcompass, Eternal Compass
-bibliocraft:paintingcanvas, Painting Canvas
-bibliocraft:bigbook, Big Writing Book
-bibliocraft:recipebook, Empty Recipe Book
-bibliocraft:slottedbook, Slotted Book
-bibliocraft:handdrill, Hand Drill
-bibliocraft:tapemeasure, Tape Measure
-bibliocraft:tape, Tape Measure Reel
-bibliocraft:bibliochase, Print Press Chase
-bibliocraft:printplate, Print Press Plate
-bibliocraft:enchantedplate, Enchanted Plate
-bibliocraft:biblioredbook, Redstone: Volume I
-bibliocraft:biblioglasses:0, Reading Glasses
-bibliocraft:biblioglasses:1, Tinted Glasses
-bibliocraft:biblioglasses:2, Monocle
-bibliocraft:bibliodrill, Screw Gun
-bibliocraft:bibliocreativelock, Lock and Key
-bibliocraft:biblioclipboard, Clipboard
 computercraft:computer:0, Computer
 computercraft:computer:16384, Advanced Computer
 computercraft:command_computer:0, Command Computer
@@ -3944,142 +3624,142 @@ gregtech:fluid_pipe_nonuple:115, Nonuple Tungsten Fluid Pipe
 gregtech:fluid_pipe_nonuple:396, Nonuple Tungstencarbide Fluid Pipe
 gregtech:fluid_pipe_nonuple:2013, Nonuple Tungstensteel Fluid Pipe
 gregtech:fluid_pipe_nonuple:2036, Nonuple Vanadiumsteel Fluid Pipe
-gregtech:item_pipe_small:80, Small Platinum Item Pipe
-gregtech:item_pipe_small:331, Small Ultimet Item Pipe
-gregtech:item_pipe_small:75, Small Osmium Item Pipe
-gregtech:item_pipe_small:3, Small Americium Item Pipe
-gregtech:item_pipe_small:69, Small Nickel Item Pipe
-gregtech:item_pipe_small:300, Small Sterling Silver Item Pipe
-gregtech:item_pipe_small:23, Small Cobalt Item Pipe
-gregtech:item_pipe_small:290, Small Magnalium Item Pipe
-gregtech:item_pipe_small:302, Small Black Bronze Item Pipe
-gregtech:item_pipe_small:277, Small Electrum Item Pipe
-gregtech:item_pipe_small:344, Small Osmiridium Item Pipe
-gregtech:item_pipe_small:2014, Small Cobalt Brass Item Pipe
-gregtech:item_pipe_small:259, Small Brass Item Pipe
 gregtech:item_pipe_small:1007, Small Polyvinyl Chloride (PVC) Item Pipe
-gregtech:item_pipe_small:112, Small Tin Item Pipe
+gregtech:item_pipe_small:2014, Small Cobalt Brass Item Pipe
 gregtech:item_pipe_small:301, Small Rose Gold Item Pipe
 gregtech:item_pipe_small:274, Small Cupronickel Item Pipe
-gregtech:item_pipe_normal:80, Platinum Item Pipe
-gregtech:item_pipe_normal:331, Ultimet Item Pipe
-gregtech:item_pipe_normal:75, Osmium Item Pipe
-gregtech:item_pipe_normal:3, Americium Item Pipe
-gregtech:item_pipe_normal:69, Nickel Item Pipe
-gregtech:item_pipe_normal:300, Sterling Silver Item Pipe
-gregtech:item_pipe_normal:23, Cobalt Item Pipe
-gregtech:item_pipe_normal:290, Magnalium Item Pipe
-gregtech:item_pipe_normal:302, Black Bronze Item Pipe
-gregtech:item_pipe_normal:277, Electrum Item Pipe
-gregtech:item_pipe_normal:344, Osmiridium Item Pipe
-gregtech:item_pipe_normal:2014, Cobalt Brass Item Pipe
-gregtech:item_pipe_normal:259, Brass Item Pipe
+gregtech:item_pipe_small:277, Small Electrum Item Pipe
+gregtech:item_pipe_small:23, Small Cobalt Item Pipe
+gregtech:item_pipe_small:69, Small Nickel Item Pipe
+gregtech:item_pipe_small:290, Small Magnalium Item Pipe
+gregtech:item_pipe_small:259, Small Brass Item Pipe
+gregtech:item_pipe_small:112, Small Tin Item Pipe
+gregtech:item_pipe_small:80, Small Platinum Item Pipe
+gregtech:item_pipe_small:344, Small Osmiridium Item Pipe
+gregtech:item_pipe_small:3, Small Americium Item Pipe
+gregtech:item_pipe_small:331, Small Ultimet Item Pipe
+gregtech:item_pipe_small:75, Small Osmium Item Pipe
+gregtech:item_pipe_small:300, Small Sterling Silver Item Pipe
+gregtech:item_pipe_small:302, Small Black Bronze Item Pipe
 gregtech:item_pipe_normal:1007, Polyvinyl Chloride (PVC) Item Pipe
-gregtech:item_pipe_normal:112, Tin Item Pipe
+gregtech:item_pipe_normal:2014, Cobalt Brass Item Pipe
 gregtech:item_pipe_normal:301, Rose Gold Item Pipe
 gregtech:item_pipe_normal:274, Cupronickel Item Pipe
-gregtech:item_pipe_large:80, Large Platinum Item Pipe
-gregtech:item_pipe_large:331, Large Ultimet Item Pipe
-gregtech:item_pipe_large:75, Large Osmium Item Pipe
-gregtech:item_pipe_large:3, Large Americium Item Pipe
-gregtech:item_pipe_large:69, Large Nickel Item Pipe
-gregtech:item_pipe_large:300, Large Sterling Silver Item Pipe
-gregtech:item_pipe_large:23, Large Cobalt Item Pipe
-gregtech:item_pipe_large:290, Large Magnalium Item Pipe
-gregtech:item_pipe_large:302, Large Black Bronze Item Pipe
-gregtech:item_pipe_large:277, Large Electrum Item Pipe
-gregtech:item_pipe_large:344, Large Osmiridium Item Pipe
-gregtech:item_pipe_large:2014, Large Cobalt Brass Item Pipe
-gregtech:item_pipe_large:259, Large Brass Item Pipe
+gregtech:item_pipe_normal:277, Electrum Item Pipe
+gregtech:item_pipe_normal:23, Cobalt Item Pipe
+gregtech:item_pipe_normal:69, Nickel Item Pipe
+gregtech:item_pipe_normal:290, Magnalium Item Pipe
+gregtech:item_pipe_normal:259, Brass Item Pipe
+gregtech:item_pipe_normal:112, Tin Item Pipe
+gregtech:item_pipe_normal:80, Platinum Item Pipe
+gregtech:item_pipe_normal:344, Osmiridium Item Pipe
+gregtech:item_pipe_normal:3, Americium Item Pipe
+gregtech:item_pipe_normal:331, Ultimet Item Pipe
+gregtech:item_pipe_normal:75, Osmium Item Pipe
+gregtech:item_pipe_normal:300, Sterling Silver Item Pipe
+gregtech:item_pipe_normal:302, Black Bronze Item Pipe
 gregtech:item_pipe_large:1007, Large Polyvinyl Chloride (PVC) Item Pipe
-gregtech:item_pipe_large:112, Large Tin Item Pipe
+gregtech:item_pipe_large:2014, Large Cobalt Brass Item Pipe
 gregtech:item_pipe_large:301, Large Rose Gold Item Pipe
 gregtech:item_pipe_large:274, Large Cupronickel Item Pipe
-gregtech:item_pipe_huge:80, Huge Platinum Item Pipe
-gregtech:item_pipe_huge:331, Huge Ultimet Item Pipe
-gregtech:item_pipe_huge:75, Huge Osmium Item Pipe
-gregtech:item_pipe_huge:3, Huge Americium Item Pipe
-gregtech:item_pipe_huge:69, Huge Nickel Item Pipe
-gregtech:item_pipe_huge:300, Huge Sterling Silver Item Pipe
-gregtech:item_pipe_huge:23, Huge Cobalt Item Pipe
-gregtech:item_pipe_huge:290, Huge Magnalium Item Pipe
-gregtech:item_pipe_huge:302, Huge Black Bronze Item Pipe
-gregtech:item_pipe_huge:277, Huge Electrum Item Pipe
-gregtech:item_pipe_huge:344, Huge Osmiridium Item Pipe
-gregtech:item_pipe_huge:2014, Huge Cobalt Brass Item Pipe
-gregtech:item_pipe_huge:259, Huge Brass Item Pipe
+gregtech:item_pipe_large:277, Large Electrum Item Pipe
+gregtech:item_pipe_large:23, Large Cobalt Item Pipe
+gregtech:item_pipe_large:69, Large Nickel Item Pipe
+gregtech:item_pipe_large:290, Large Magnalium Item Pipe
+gregtech:item_pipe_large:259, Large Brass Item Pipe
+gregtech:item_pipe_large:112, Large Tin Item Pipe
+gregtech:item_pipe_large:80, Large Platinum Item Pipe
+gregtech:item_pipe_large:344, Large Osmiridium Item Pipe
+gregtech:item_pipe_large:3, Large Americium Item Pipe
+gregtech:item_pipe_large:331, Large Ultimet Item Pipe
+gregtech:item_pipe_large:75, Large Osmium Item Pipe
+gregtech:item_pipe_large:300, Large Sterling Silver Item Pipe
+gregtech:item_pipe_large:302, Large Black Bronze Item Pipe
 gregtech:item_pipe_huge:1007, Huge Polyvinyl Chloride (PVC) Item Pipe
-gregtech:item_pipe_huge:112, Huge Tin Item Pipe
+gregtech:item_pipe_huge:2014, Huge Cobalt Brass Item Pipe
 gregtech:item_pipe_huge:301, Huge Rose Gold Item Pipe
 gregtech:item_pipe_huge:274, Huge Cupronickel Item Pipe
-gregtech:item_pipe_small_restrictive:80, Small Restrictive Platinum Item Pipe
-gregtech:item_pipe_small_restrictive:331, Small Restrictive Ultimet Item Pipe
-gregtech:item_pipe_small_restrictive:75, Small Restrictive Osmium Item Pipe
-gregtech:item_pipe_small_restrictive:3, Small Restrictive Americium Item Pipe
-gregtech:item_pipe_small_restrictive:69, Small Restrictive Nickel Item Pipe
-gregtech:item_pipe_small_restrictive:300, Small Restrictive Sterling Silver Item Pipe
-gregtech:item_pipe_small_restrictive:23, Small Restrictive Cobalt Item Pipe
-gregtech:item_pipe_small_restrictive:290, Small Restrictive Magnalium Item Pipe
-gregtech:item_pipe_small_restrictive:302, Small Restrictive Black Bronze Item Pipe
-gregtech:item_pipe_small_restrictive:277, Small Restrictive Electrum Item Pipe
-gregtech:item_pipe_small_restrictive:344, Small Restrictive Osmiridium Item Pipe
-gregtech:item_pipe_small_restrictive:2014, Small Restrictive Cobalt Brass Item Pipe
-gregtech:item_pipe_small_restrictive:259, Small Restrictive Brass Item Pipe
+gregtech:item_pipe_huge:277, Huge Electrum Item Pipe
+gregtech:item_pipe_huge:23, Huge Cobalt Item Pipe
+gregtech:item_pipe_huge:69, Huge Nickel Item Pipe
+gregtech:item_pipe_huge:290, Huge Magnalium Item Pipe
+gregtech:item_pipe_huge:259, Huge Brass Item Pipe
+gregtech:item_pipe_huge:112, Huge Tin Item Pipe
+gregtech:item_pipe_huge:80, Huge Platinum Item Pipe
+gregtech:item_pipe_huge:344, Huge Osmiridium Item Pipe
+gregtech:item_pipe_huge:3, Huge Americium Item Pipe
+gregtech:item_pipe_huge:331, Huge Ultimet Item Pipe
+gregtech:item_pipe_huge:75, Huge Osmium Item Pipe
+gregtech:item_pipe_huge:300, Huge Sterling Silver Item Pipe
+gregtech:item_pipe_huge:302, Huge Black Bronze Item Pipe
 gregtech:item_pipe_small_restrictive:1007, Small Restrictive Polyvinyl Chloride (PVC) Item Pipe
-gregtech:item_pipe_small_restrictive:112, Small Restrictive Tin Item Pipe
+gregtech:item_pipe_small_restrictive:2014, Small Restrictive Cobalt Brass Item Pipe
 gregtech:item_pipe_small_restrictive:301, Small Restrictive Rose Gold Item Pipe
 gregtech:item_pipe_small_restrictive:274, Small Restrictive Cupronickel Item Pipe
-gregtech:item_pipe_normal_restrictive:80, Restrictive Platinum Item Pipe
-gregtech:item_pipe_normal_restrictive:331, Restrictive Ultimet Item Pipe
-gregtech:item_pipe_normal_restrictive:75, Restrictive Osmium Item Pipe
-gregtech:item_pipe_normal_restrictive:3, Restrictive Americium Item Pipe
-gregtech:item_pipe_normal_restrictive:69, Restrictive Nickel Item Pipe
-gregtech:item_pipe_normal_restrictive:300, Restrictive Sterling Silver Item Pipe
-gregtech:item_pipe_normal_restrictive:23, Restrictive Cobalt Item Pipe
-gregtech:item_pipe_normal_restrictive:290, Restrictive Magnalium Item Pipe
-gregtech:item_pipe_normal_restrictive:302, Restrictive Black Bronze Item Pipe
-gregtech:item_pipe_normal_restrictive:277, Restrictive Electrum Item Pipe
-gregtech:item_pipe_normal_restrictive:344, Restrictive Osmiridium Item Pipe
-gregtech:item_pipe_normal_restrictive:2014, Restrictive Cobalt Brass Item Pipe
-gregtech:item_pipe_normal_restrictive:259, Restrictive Brass Item Pipe
+gregtech:item_pipe_small_restrictive:277, Small Restrictive Electrum Item Pipe
+gregtech:item_pipe_small_restrictive:23, Small Restrictive Cobalt Item Pipe
+gregtech:item_pipe_small_restrictive:69, Small Restrictive Nickel Item Pipe
+gregtech:item_pipe_small_restrictive:290, Small Restrictive Magnalium Item Pipe
+gregtech:item_pipe_small_restrictive:259, Small Restrictive Brass Item Pipe
+gregtech:item_pipe_small_restrictive:112, Small Restrictive Tin Item Pipe
+gregtech:item_pipe_small_restrictive:80, Small Restrictive Platinum Item Pipe
+gregtech:item_pipe_small_restrictive:344, Small Restrictive Osmiridium Item Pipe
+gregtech:item_pipe_small_restrictive:3, Small Restrictive Americium Item Pipe
+gregtech:item_pipe_small_restrictive:331, Small Restrictive Ultimet Item Pipe
+gregtech:item_pipe_small_restrictive:75, Small Restrictive Osmium Item Pipe
+gregtech:item_pipe_small_restrictive:300, Small Restrictive Sterling Silver Item Pipe
+gregtech:item_pipe_small_restrictive:302, Small Restrictive Black Bronze Item Pipe
 gregtech:item_pipe_normal_restrictive:1007, Restrictive Polyvinyl Chloride (PVC) Item Pipe
-gregtech:item_pipe_normal_restrictive:112, Restrictive Tin Item Pipe
+gregtech:item_pipe_normal_restrictive:2014, Restrictive Cobalt Brass Item Pipe
 gregtech:item_pipe_normal_restrictive:301, Restrictive Rose Gold Item Pipe
 gregtech:item_pipe_normal_restrictive:274, Restrictive Cupronickel Item Pipe
-gregtech:item_pipe_large_restrictive:80, Large Restrictive Platinum Item Pipe
-gregtech:item_pipe_large_restrictive:331, Large Restrictive Ultimet Item Pipe
-gregtech:item_pipe_large_restrictive:75, Large Restrictive Osmium Item Pipe
-gregtech:item_pipe_large_restrictive:3, Large Restrictive Americium Item Pipe
-gregtech:item_pipe_large_restrictive:69, Large Restrictive Nickel Item Pipe
-gregtech:item_pipe_large_restrictive:300, Large Restrictive Sterling Silver Item Pipe
-gregtech:item_pipe_large_restrictive:23, Large Restrictive Cobalt Item Pipe
-gregtech:item_pipe_large_restrictive:290, Large Restrictive Magnalium Item Pipe
-gregtech:item_pipe_large_restrictive:302, Large Restrictive Black Bronze Item Pipe
-gregtech:item_pipe_large_restrictive:277, Large Restrictive Electrum Item Pipe
-gregtech:item_pipe_large_restrictive:344, Large Restrictive Osmiridium Item Pipe
-gregtech:item_pipe_large_restrictive:2014, Large Restrictive Cobalt Brass Item Pipe
-gregtech:item_pipe_large_restrictive:259, Large Restrictive Brass Item Pipe
+gregtech:item_pipe_normal_restrictive:277, Restrictive Electrum Item Pipe
+gregtech:item_pipe_normal_restrictive:23, Restrictive Cobalt Item Pipe
+gregtech:item_pipe_normal_restrictive:69, Restrictive Nickel Item Pipe
+gregtech:item_pipe_normal_restrictive:290, Restrictive Magnalium Item Pipe
+gregtech:item_pipe_normal_restrictive:259, Restrictive Brass Item Pipe
+gregtech:item_pipe_normal_restrictive:112, Restrictive Tin Item Pipe
+gregtech:item_pipe_normal_restrictive:80, Restrictive Platinum Item Pipe
+gregtech:item_pipe_normal_restrictive:344, Restrictive Osmiridium Item Pipe
+gregtech:item_pipe_normal_restrictive:3, Restrictive Americium Item Pipe
+gregtech:item_pipe_normal_restrictive:331, Restrictive Ultimet Item Pipe
+gregtech:item_pipe_normal_restrictive:75, Restrictive Osmium Item Pipe
+gregtech:item_pipe_normal_restrictive:300, Restrictive Sterling Silver Item Pipe
+gregtech:item_pipe_normal_restrictive:302, Restrictive Black Bronze Item Pipe
 gregtech:item_pipe_large_restrictive:1007, Large Restrictive Polyvinyl Chloride (PVC) Item Pipe
-gregtech:item_pipe_large_restrictive:112, Large Restrictive Tin Item Pipe
+gregtech:item_pipe_large_restrictive:2014, Large Restrictive Cobalt Brass Item Pipe
 gregtech:item_pipe_large_restrictive:301, Large Restrictive Rose Gold Item Pipe
 gregtech:item_pipe_large_restrictive:274, Large Restrictive Cupronickel Item Pipe
-gregtech:item_pipe_huge_restrictive:80, Huge Restrictive Platinum Item Pipe
-gregtech:item_pipe_huge_restrictive:331, Huge Restrictive Ultimet Item Pipe
-gregtech:item_pipe_huge_restrictive:75, Huge Restrictive Osmium Item Pipe
-gregtech:item_pipe_huge_restrictive:3, Huge Restrictive Americium Item Pipe
-gregtech:item_pipe_huge_restrictive:69, Huge Restrictive Nickel Item Pipe
-gregtech:item_pipe_huge_restrictive:300, Huge Restrictive Sterling Silver Item Pipe
-gregtech:item_pipe_huge_restrictive:23, Huge Restrictive Cobalt Item Pipe
-gregtech:item_pipe_huge_restrictive:290, Huge Restrictive Magnalium Item Pipe
-gregtech:item_pipe_huge_restrictive:302, Huge Restrictive Black Bronze Item Pipe
-gregtech:item_pipe_huge_restrictive:277, Huge Restrictive Electrum Item Pipe
-gregtech:item_pipe_huge_restrictive:344, Huge Restrictive Osmiridium Item Pipe
-gregtech:item_pipe_huge_restrictive:2014, Huge Restrictive Cobalt Brass Item Pipe
-gregtech:item_pipe_huge_restrictive:259, Huge Restrictive Brass Item Pipe
+gregtech:item_pipe_large_restrictive:277, Large Restrictive Electrum Item Pipe
+gregtech:item_pipe_large_restrictive:23, Large Restrictive Cobalt Item Pipe
+gregtech:item_pipe_large_restrictive:69, Large Restrictive Nickel Item Pipe
+gregtech:item_pipe_large_restrictive:290, Large Restrictive Magnalium Item Pipe
+gregtech:item_pipe_large_restrictive:259, Large Restrictive Brass Item Pipe
+gregtech:item_pipe_large_restrictive:112, Large Restrictive Tin Item Pipe
+gregtech:item_pipe_large_restrictive:80, Large Restrictive Platinum Item Pipe
+gregtech:item_pipe_large_restrictive:344, Large Restrictive Osmiridium Item Pipe
+gregtech:item_pipe_large_restrictive:3, Large Restrictive Americium Item Pipe
+gregtech:item_pipe_large_restrictive:331, Large Restrictive Ultimet Item Pipe
+gregtech:item_pipe_large_restrictive:75, Large Restrictive Osmium Item Pipe
+gregtech:item_pipe_large_restrictive:300, Large Restrictive Sterling Silver Item Pipe
+gregtech:item_pipe_large_restrictive:302, Large Restrictive Black Bronze Item Pipe
 gregtech:item_pipe_huge_restrictive:1007, Huge Restrictive Polyvinyl Chloride (PVC) Item Pipe
-gregtech:item_pipe_huge_restrictive:112, Huge Restrictive Tin Item Pipe
+gregtech:item_pipe_huge_restrictive:2014, Huge Restrictive Cobalt Brass Item Pipe
 gregtech:item_pipe_huge_restrictive:301, Huge Restrictive Rose Gold Item Pipe
 gregtech:item_pipe_huge_restrictive:274, Huge Restrictive Cupronickel Item Pipe
+gregtech:item_pipe_huge_restrictive:277, Huge Restrictive Electrum Item Pipe
+gregtech:item_pipe_huge_restrictive:23, Huge Restrictive Cobalt Item Pipe
+gregtech:item_pipe_huge_restrictive:69, Huge Restrictive Nickel Item Pipe
+gregtech:item_pipe_huge_restrictive:290, Huge Restrictive Magnalium Item Pipe
+gregtech:item_pipe_huge_restrictive:259, Huge Restrictive Brass Item Pipe
+gregtech:item_pipe_huge_restrictive:112, Huge Restrictive Tin Item Pipe
+gregtech:item_pipe_huge_restrictive:80, Huge Restrictive Platinum Item Pipe
+gregtech:item_pipe_huge_restrictive:344, Huge Restrictive Osmiridium Item Pipe
+gregtech:item_pipe_huge_restrictive:3, Huge Restrictive Americium Item Pipe
+gregtech:item_pipe_huge_restrictive:331, Huge Restrictive Ultimet Item Pipe
+gregtech:item_pipe_huge_restrictive:75, Huge Restrictive Osmium Item Pipe
+gregtech:item_pipe_huge_restrictive:300, Huge Restrictive Sterling Silver Item Pipe
+gregtech:item_pipe_huge_restrictive:302, Huge Restrictive Black Bronze Item Pipe
 gregtech:optical_pipe_normal:0, Optical Fiber Cable
 gregtech:laser_pipe_normal:0, Laser Transmitting Cable
 gregtech:ld_item_pipe, Long Distance Item Pipe
@@ -5111,24 +4791,6 @@ gregtech:ore_garnet_sand_0:2, End Garnet Sand Ore
 gregtech:ore_basaltic_mineral_sand_0:0, Basaltic Mineral Sand Ore
 gregtech:ore_basaltic_mineral_sand_0:1, Nether Basaltic Mineral Sand Ore
 gregtech:ore_basaltic_mineral_sand_0:2, End Basaltic Mineral Sand Ore
-ironchest:iron_gold_chest_upgrade, Iron to Gold Chest Upgrade
-ironchest:gold_diamond_chest_upgrade, Gold to Diamond Chest Upgrade
-ironchest:copper_silver_chest_upgrade, Copper to Silver Chest Upgrade
-ironchest:silver_gold_chest_upgrade, Silver to Gold Chest Upgrade
-ironchest:copper_iron_chest_upgrade, Copper to Iron Chest Upgrade
-ironchest:diamond_crystal_chest_upgrade, Diamond to Crystal Chest Upgrade
-ironchest:wood_iron_chest_upgrade, Wood to Iron Chest Upgrade
-ironchest:wood_copper_chest_upgrade, Wood to Copper Chest Upgrade
-ironchest:diamond_obsidian_chest_upgrade, Diamond to Obsidian Chest Upgrade
-ironchest:iron_gold_shulker_upgrade, Iron to Gold Shulker Box Upgrade
-ironchest:gold_diamond_shulker_upgrade, Gold to Diamond Shulker Box Upgrade
-ironchest:copper_silver_shulker_upgrade, Copper to Silver Shulker Box Upgrade
-ironchest:silver_gold_shulker_upgrade, Silver to Gold Shulker Box Upgrade
-ironchest:copper_iron_shulker_upgrade, Copper to Iron Shulker Box Upgrade
-ironchest:diamond_crystal_shulker_upgrade, Diamond to Crystal Shulker Box Upgrade
-ironchest:vanilla_iron_shulker_upgrade, Vanilla to Iron Shulker Box Upgrade
-ironchest:vanilla_copper_shulker_upgrade, Vanilla to Copper Shulker Box Upgrade
-ironchest:diamond_obsidian_shulker_upgrade, Diamond to Obsidian Shulker Box Upgrade
 ironchest:iron_chest:0, Iron Chest
 ironchest:iron_chest:1, Gold Chest
 ironchest:iron_chest:2, Diamond Chest
@@ -5249,29 +4911,26 @@ ironchest:iron_shulker_box_black:3, Black Copper Shulker Box
 ironchest:iron_shulker_box_black:4, Black Silver Shulker Box
 ironchest:iron_shulker_box_black:5, Black Crystal Shulker Box
 ironchest:iron_shulker_box_black:6, Black Obsidian Shulker Box
+ironchest:iron_gold_chest_upgrade, Iron to Gold Chest Upgrade
+ironchest:gold_diamond_chest_upgrade, Gold to Diamond Chest Upgrade
+ironchest:copper_silver_chest_upgrade, Copper to Silver Chest Upgrade
+ironchest:silver_gold_chest_upgrade, Silver to Gold Chest Upgrade
+ironchest:copper_iron_chest_upgrade, Copper to Iron Chest Upgrade
+ironchest:diamond_crystal_chest_upgrade, Diamond to Crystal Chest Upgrade
+ironchest:wood_iron_chest_upgrade, Wood to Iron Chest Upgrade
+ironchest:wood_copper_chest_upgrade, Wood to Copper Chest Upgrade
+ironchest:diamond_obsidian_chest_upgrade, Diamond to Obsidian Chest Upgrade
+ironchest:iron_gold_shulker_upgrade, Iron to Gold Shulker Box Upgrade
+ironchest:gold_diamond_shulker_upgrade, Gold to Diamond Shulker Box Upgrade
+ironchest:copper_silver_shulker_upgrade, Copper to Silver Shulker Box Upgrade
+ironchest:silver_gold_shulker_upgrade, Silver to Gold Shulker Box Upgrade
+ironchest:copper_iron_shulker_upgrade, Copper to Iron Shulker Box Upgrade
+ironchest:diamond_crystal_shulker_upgrade, Diamond to Crystal Shulker Box Upgrade
+ironchest:vanilla_iron_shulker_upgrade, Vanilla to Iron Shulker Box Upgrade
+ironchest:vanilla_copper_shulker_upgrade, Vanilla to Copper Shulker Box Upgrade
+ironchest:diamond_obsidian_shulker_upgrade, Diamond to Obsidian Shulker Box Upgrade
 questbook:itemquestbook, Quest Book
 bq_standard:loot_chest, Loot Chest
-storagedrawers:upgrade_template, Upgrade Template
-storagedrawers:upgrade_storage:0, Storage Upgrade (I)
-storagedrawers:upgrade_storage:1, Storage Upgrade (II)
-storagedrawers:upgrade_storage:2, Storage Upgrade (III)
-storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
-storagedrawers:upgrade_storage:4, Storage Upgrade (V)
-storagedrawers:upgrade_one_stack, Storage Downgrade
-storagedrawers:upgrade_status:0, Status Upgrade (I)
-storagedrawers:upgrade_status:1, Status Upgrade (II)
-storagedrawers:upgrade_void, Void Upgrade
-storagedrawers:upgrade_conversion, Conversion Upgrade
-storagedrawers:upgrade_creative:0, Creative Storage Upgrade
-storagedrawers:upgrade_creative:1, Creative Vending Upgrade
-storagedrawers:upgrade_redstone:0, Redstone Upgrade
-storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
-storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
-storagedrawers:drawer_key, Drawer Key
-storagedrawers:shroud_key, Concealment Key
-storagedrawers:personal_key, Personal Key
-storagedrawers:quantify_key, Quantify Key
-storagedrawers:tape, Packing Tape
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
@@ -5322,6 +4981,27 @@ storagedrawers:customdrawers:3, Framed Half Drawers 1x2
 storagedrawers:customdrawers:4, Framed Half Drawers 2x2
 storagedrawers:customtrim, Framed Trim
 storagedrawers:framingtable, Framing Table
+storagedrawers:upgrade_template, Upgrade Template
+storagedrawers:upgrade_storage:0, Storage Upgrade (I)
+storagedrawers:upgrade_storage:1, Storage Upgrade (II)
+storagedrawers:upgrade_storage:2, Storage Upgrade (III)
+storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
+storagedrawers:upgrade_storage:4, Storage Upgrade (V)
+storagedrawers:upgrade_one_stack, Storage Downgrade
+storagedrawers:upgrade_status:0, Status Upgrade (I)
+storagedrawers:upgrade_status:1, Status Upgrade (II)
+storagedrawers:upgrade_void, Void Upgrade
+storagedrawers:upgrade_conversion, Conversion Upgrade
+storagedrawers:upgrade_creative:0, Creative Storage Upgrade
+storagedrawers:upgrade_creative:1, Creative Vending Upgrade
+storagedrawers:upgrade_redstone:0, Redstone Upgrade
+storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
+storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
+storagedrawers:drawer_key, Drawer Key
+storagedrawers:shroud_key, Concealment Key
+storagedrawers:personal_key, Personal Key
+storagedrawers:quantify_key, Quantify Key
+storagedrawers:tape, Packing Tape
 base:wrench, Wrench
 firstaid:bandage, Bandage
 firstaid:plaster, Plaster

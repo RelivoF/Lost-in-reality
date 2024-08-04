@@ -100,7 +100,7 @@ assembler.recipeBuilder()
 // - constructor -
 
 assembler.recipeBuilder()
-    .inputs(obsidianPlate * 2, glass, core, redstonePlate)
+    .inputs(obsidianPlate * 2, core, glass, redstonePlate)
     .outputs(constructor)
     .duration(80)
     .EUt(120)
