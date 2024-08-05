@@ -145,7 +145,3 @@ assembler.recipeBuilder()
     .duration(40)
     .EUt(120)
     .buildAndRegister();
-
-// - Extras -
-
-enderModem.displayName = "Advanced Modem";

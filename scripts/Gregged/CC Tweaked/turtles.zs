@@ -7,6 +7,10 @@ import mods.gregtech.recipe.RecipeMap;
 
 // - Variables -
 
+// - Machines -
+
+val assembler as RecipeMap = <recipemap:assembler>;
+
 // - Blocks -
 
 // - Computer -
@@ -24,6 +28,7 @@ val turtle = <computercraft:turtle_expanded>;
 // - Thruster -
 
 val thruster = <gregtech:meta_item_1:776>;
+val advThruster = <gregtech:meta_item_1:777>;
 
 // - Cell -
 
@@ -61,5 +66,25 @@ recipes.addShaped(turtle, [
 recipes.addShaped(advTurtle, [
     [goldPlate, storage, goldPlate],
     [screwdriver, advComputer, wrench],
-    [goldPlate, thruster, goldPlate]
+    [goldPlate, advThruster, goldPlate]
 ]);
+
+// - Assembler - 
+
+// - Turtle -
+
+assembler.recipeBuilder()
+    .inputs(stonePlate * 2, computer, storage, thruster)
+    .outputs(turtle)
+    .duration(30)
+    .EUt(120)
+    .buildAndRegister();
+
+// - Advanced Turtle -
+
+assembler.recipeBuilder()
+    .inputs(goldPlate * 2, advComputer, storage, advThruster)
+    .outputs(turtle)
+    .duration(30)
+    .EUt(120)
+    .buildAndRegister();

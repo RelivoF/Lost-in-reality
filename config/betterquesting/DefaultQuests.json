@@ -24,9 +24,270 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 1,
+          "ismain:1": 0,
           "name:8": "What am I?",
-          "desc:8": "You might be wondering where you are?\n\nYou are in Experiment 114(Lost In Realities), run by the Inter Reality Control Committee(IRCC).\nYour reality is §aNI2398§f.\n\n§0Information about you:\n\nName: §aRaelon Trukit§f\n\n§0Sex: §aMale§f\n\n§0Age: §a19§f\n\n§0Original Reality: §aMH0000§a\n"
+          "desc:8": "§2§0§fYou might be wondering who you are?\n\nWell you are in Experiment 114(Lost In Realities), run by the Inter Reality Control Committee(IRCC).\nYour reality is §aNI2398§f.§f§f\n\n§0§f§f\n\nName: §aRaelon Trukit§f\n\n§0§fSex: §aMale§f\n\n§0§fA§fge: §a19§f\n\n§0§fOriginal Reality: §aMH0000§a\n\n\n\n§9More Information at the IRCC Website(Not finished)"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "1:10": {
+      "questID:3": 1,
+      "preRequisites:11": [
+        7
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:diamond",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Help us acheive.",
+          "desc:8": "At the moment only I(Relivof) am working on this modpack,\nbut if you feel there is something that belongs or a bug that is\u0027nt being fixed, \njust join me, help me make your favourite modpack that you\u0027s made.\n\nMost things are powered by their community, make ours MADE by our community."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "2:10": {
+      "questID:3": 2,
+      "preRequisites:11": [
+        1
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:grass",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "World Generation",
+          "desc:8": "The world Generation is powered by RTG or Realistic World Generator, which is used by some of the best modpacks(GTNH)."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "3:10": {
+      "questID:3": 3,
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Greg or Not?",
+          "desc:8": "Greg or Not? \n\nThat is the question,\nAlthough the story/modpack is based around GregTech CEu, most mods may not be \"Gregged\", though we might do it in the future.\n"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "4:10": {
+      "questID:3": 4,
+      "preRequisites:11": [
+        1
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:sapling",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Vanilla/Realistic",
+          "desc:8": "Most of the mods/recipes will be as realistic as we can.\nIf it is\u0027nt realistic enough, you can fix it. As stated earlier."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "5:10": {
+      "questID:3": 5,
+      "preRequisites:11": [
+        1
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:iron_ore",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Ore Generation",
+          "desc:8": "The ore\u0027s generate in veins from GregTech, you can use a scanner to easily find veins,\nalthough they are\u0027nt early game. :)"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "6:10": {
+      "questID:3": 6,
+      "preRequisites:11": [
+        3
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "sync:item_shell_constructor",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Hardcore tips",
+          "desc:8": "As you progress you might notice the Sync mod, a simple explaination, it is a transport/bioligy mod where you can \"escape\" death.\n This may be explained in future quest."
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "7:10": {
+      "questID:3": 7,
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "computercraft:peripheral",
+            "Count:3": 1,
+            "Damage:2": 4,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "A brief explanation",
+          "desc:8": "This modpack was made from my love of GregTech and love of Stories/Lore,\n\nMost GregTech Modpack\u0027s i\u0027ve played have only had like that humans destroyed the earth with Nukes or some bad story, but Lost in reality is striving to be different.\n\nTaking Some bits from many Shows/Movies/Games.\n\nIf anything doesnt line up make sure to put an issue on our github at §ahttps://github.com/Inter-Reality-Control-Committee/Lost-in-reality§f(NOT CLICKABLE)\n"
         }
       },
       "tasks:9": {
@@ -47,6 +308,55 @@
           "y:3": -60,
           "id:3": 0,
           "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": -204,
+          "y:3": -60,
+          "id:3": 1,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": -252,
+          "y:3": -60,
+          "id:3": 2,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": -60,
+          "y:3": -60,
+          "id:3": 3,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": -240,
+          "y:3": -96,
+          "id:3": 4,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": -240,
+          "y:3": -24,
+          "id:3": 5,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": -60,
+          "id:3": 6,
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": -156,
+          "y:3": -60,
+          "id:3": 7,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 0,
@@ -55,7 +365,7 @@
           "visibility:8": "NORMAL",
           "name:8": "Your Mission",
           "icon:10": {
-            "id:8": "minecraft:book",
+            "id:8": "minecraft:nether_star",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -66,22 +376,42 @@
         }
       },
       "order:3": 0
+    },
+    "1:10": {
+      "quests:9": {},
+      "lineID:3": 1,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "Beginnings",
+          "icon:10": {
+            "id:8": "minecraft:stone",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "The start/beginning of your journey to conquer this reality."
+        }
+      },
+      "order:3": 1
     }
   },
   "questSettings:10": {
     "betterquesting:10": {
       "livesdef:3": 3,
-      "pack_name:8": "",
+      "pack_name:8": "Lost in Reality",
       "home_anchor_y:5": 0.0,
       "livesmax:3": 10,
       "home_anchor_x:5": 0.5,
       "editmode:1": 1,
       "hardcore:1": 0,
-      "home_image:8": "betterquesting:textures/gui/default_title.png",
+      "home_image:8": "lost_in_reality:textures/gui/title_card.png",
       "party_enable:1": 1,
       "pack_version:3": 0,
       "home_offset_x:3": -128,
-      "home_offset_y:3": 0
+      "home_offset_y:3": -9999
     }
   }
 }
