@@ -1,17 +1,9 @@
 // - Created by Revilof - 
 // - For Lost in reality -
 
-// - import -
-
-import mods.gregtech.recipe.RecipeMap;
-
 // - Variables -
 
 // - Blocks -
-
-// - Macines -
-
-val assembler as RecipeMap = <recipemap:assembler>;
 
 // - Disk Drive -
 

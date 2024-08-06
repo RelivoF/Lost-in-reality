@@ -32,7 +32,7 @@ val advThruster = <gregtech:meta_item_1:777>;
 
 // - Cell -
 
-val storage = <appliedenergistics2:storage_cell_1k>;
+val storage = <ore:chest>;
 
 // - Tools -
 
