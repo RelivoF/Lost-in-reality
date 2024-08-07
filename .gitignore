@@ -15,3 +15,7 @@ usernamecache.json
 crafttweaker.log
 minecraftinstance.json
 bookmarks.ini
+config/jei/itemBlacklist.cfg
+config/jei/jei.cfg
+config/jei/searchColors.cfg
+config/jei/worldSettings.cfg
