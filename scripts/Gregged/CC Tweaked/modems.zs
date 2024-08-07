@@ -107,7 +107,7 @@ assembler.recipeBuilder()
     .inputs(stonePlate * 2, cableNetwork, redstonePlate)
     .outputs(wiredModem)
     .duration(80)
-    .EUt(120)
+    .EUt(64)
     .buildAndRegister();
 
 // - Wireless Modem -
@@ -116,7 +116,7 @@ assembler.recipeBuilder()
     .inputs(stonePlate * 2, enderPearl, redstonePlate)
     .outputs(wirelessModem)
     .duration(80)
-    .EUt(120)
+    .EUt(64)
     .buildAndRegister();
 
 // - Ender Modem -
@@ -125,7 +125,7 @@ assembler.recipeBuilder()
     .inputs(goldPlate * 2, eyeOfEnder, redstonePlate)
     .outputs(enderModem)
     .duration(80)
-    .EUt(160)
+    .EUt(128)
     .buildAndRegister();
 
 // - Split Wired Modem -
@@ -134,14 +134,14 @@ assembler.recipeBuilder()
     .inputs(wiredModem * 6)
     .outputs(splitWiredModem)
     .duration(140)
-    .EUt(120)
+    .EUt(64)
     .buildAndRegister();
 
 // - Network Cable -
 
 assembler.recipeBuilder()
     .inputs(stonePlate, borosilicateGlassFiber)
-    .outputs(cableNetwork)
+    .outputs(cableNetwork * 16)
     .duration(40)
-    .EUt(120)
+    .EUt(64)
     .buildAndRegister();

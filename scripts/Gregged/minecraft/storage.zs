@@ -9,7 +9,7 @@ import mods.gregtech.recipe.RecipeMap;
 
 // - Machines -
 
-val assembler as RecipeMap = <recipemap:assembler>;
+val assembler as RecipeMap = <RecipeMap:assembler>;
 
 // - Blocks -
 
@@ -78,5 +78,5 @@ assembler.recipeBuilder()
     .inputs(obsidianPlate * 2, eyeOfEnder)
     .outputs(enderChest)
     .duration(120)
-    .EUt(80)
+    .EUt(64)
     .buildAndRegister();

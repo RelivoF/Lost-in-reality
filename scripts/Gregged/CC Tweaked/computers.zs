@@ -79,7 +79,7 @@ assembler.recipeBuilder()
     .inputs(MVCircuit, stonePlate * 2, glass)
     .outputs(computer)
     .duration(60)
-    .EUt(120)
+    .EUt(64)
     .buildAndRegister();
 
 // - Advanced Computer
@@ -88,5 +88,5 @@ assembler.recipeBuilder()
     .inputs(HVCircuit, goldPlate * 2, glass)
     .outputs(advancedComputer)
     .duration(80)
-    .EUt(180)
+    .EUt(128)
     .buildAndRegister();

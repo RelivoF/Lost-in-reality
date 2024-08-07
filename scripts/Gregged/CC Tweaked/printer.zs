@@ -60,5 +60,5 @@ assembler.recipeBuilder()
     .inputs(stonePlate * 2, MVCircuit, dye, ironBolt)
     .outputs(printer)
     .duration(80)
-    .EUt(60)
+    .EUt(64)
     .buildAndRegister();

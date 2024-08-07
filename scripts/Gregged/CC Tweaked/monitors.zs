@@ -76,7 +76,7 @@ assembler.recipeBuilder()
     .inputs(stonePlate * 2, annealedCopperWire, goodCircuit, glass)
     .outputs(monitor)
     .duration(100)
-    .EUt(120)
+    .EUt(64)
     .buildAndRegister();
 
 // - Advanced Monitor -
@@ -85,5 +85,5 @@ assembler.recipeBuilder()
     .inputs(goldPlate * 2, blueAlloyWire, goodCircuit, glass)
     .outputs(advMonitor)
     .duration(100)
-    .EUt(120)
+    .EUt(128)
     .buildAndRegister();

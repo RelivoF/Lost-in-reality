@@ -93,7 +93,7 @@ assembler.recipeBuilder()
     .inputs(wood, flint)
     .outputs(craftingTable)
     .duration(20)
-    .EUt(15)
+    .EUt(16)
     .buildAndRegister();
 
 // - Enchanting table -
@@ -102,7 +102,7 @@ assembler.recipeBuilder()
     .inputs(bookQuill, diamondPlate, obsidianPlate, obsidian)
     .outputs(enchantingTable)
     .duration(120)
-    .EUt(60)
+    .EUt(64)
     .buildAndRegister();
 
 // - Anvil -
@@ -111,5 +111,5 @@ assembler.recipeBuilder()
     .inputs(ironBlock * 2, ironBlock * 3)
     .outputs(anvil)
     .duration(80)
-    .EUt(40)
+    .EUt(32)
     .buildAndRegister();

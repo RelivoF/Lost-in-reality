@@ -57,5 +57,5 @@ assembler.recipeBuilder()
     .inputs(stonePlate * 2, fineCopperWire, magneticSteel, annealedCopperWire)
     .outputs(speaker)
     .duration(60)
-    .EUt(120)
+    .EUt(64)
     .buildAndRegister();
