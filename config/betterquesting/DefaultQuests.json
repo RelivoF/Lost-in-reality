@@ -140,7 +140,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Greg or Not?",
-          "desc:8": "Greg or Not? \n\nThat is the question,\nAlthough the story/modpack is based around GregTech CEu, most mods may not be \"Gregged\", though we might do it in the future.\n"
+          "desc:8": "Greg or Not? \n\nThat is the question,\n\nAlthough the story/modpack is based around GregTech CEu, most mods may not be \"Gregged\", though we might do it in the future.\n"
         }
       },
       "tasks:9": {
@@ -216,7 +216,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Ore Generation",
-          "desc:8": "The ore\u0027s generate in veins from GregTech, you can use a scanner to easily find veins,\nalthough they are\u0027nt early game. :)"
+          "desc:8": "The ore\u0027s generate in veins from GregTech, you can use a Electric Prospector to easily find veins,\n\nAs a welcome gift, we give you this brand new Electric Prospector."
         }
       },
       "tasks:9": {
@@ -225,7 +225,23 @@
           "taskID:8": "bq_standard:checkbox"
         }
       },
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "tag:10": {
+                "Charge:4": 100000
+              },
+              "Damage:2": 466,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "6:10": {
       "questID:3": 6,
@@ -297,6 +313,109 @@
         }
       },
       "rewards:9": {}
+    },
+    "8:10": {
+      "questID:3": 8,
+      "preRequisites:11": [
+        1
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:concrete",
+            "Count:3": 1,
+            "Damage:2": 15,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Dark",
+          "desc:8": "One of the mods intalled is Hardcore Darkness, which removes the darkest light.\n\nAKA: night\u0027s a pain.\n\nAs a welcome gift, we give you some torches."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:torch",
+              "Count:3": 32,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "9:10": {
+      "questID:3": 9,
+      "preRequisites:11": [
+        6,
+        1
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:dirt",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Yummy",
+          "desc:8": "Collect the \"best food source\" dirt."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:dirt",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
     }
   },
   "questLines:9": {
@@ -357,6 +476,13 @@
           "y:3": -60,
           "id:3": 7,
           "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": -204,
+          "y:3": -108,
+          "id:3": 8,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 0,
@@ -378,7 +504,15 @@
       "order:3": 0
     },
     "1:10": {
-      "quests:9": {},
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": -48,
+          "id:3": 9,
+          "sizeY:3": 24
+        }
+      },
       "lineID:3": 1,
       "properties:10": {
         "betterquesting:10": {

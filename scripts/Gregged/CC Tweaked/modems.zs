@@ -125,7 +125,7 @@ assembler.recipeBuilder()
     .inputs(goldPlate * 2, eyeOfEnder, redstonePlate)
     .outputs(enderModem)
     .duration(80)
-    .EUt(120)
+    .EUt(160)
     .buildAndRegister();
 
 // - Split Wired Modem -

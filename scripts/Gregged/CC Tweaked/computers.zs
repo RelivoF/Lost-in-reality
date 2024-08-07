@@ -88,5 +88,5 @@ assembler.recipeBuilder()
     .inputs(HVCircuit, goldPlate * 2, glass)
     .outputs(advancedComputer)
     .duration(80)
-    .EUt(120)
+    .EUt(180)
     .buildAndRegister();

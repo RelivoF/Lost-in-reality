@@ -84,7 +84,7 @@ assembler.recipeBuilder()
 
 assembler.recipeBuilder()
     .inputs(goldPlate * 2, advComputer, storage, advThruster)
-    .outputs(turtle)
+    .outputs(advTurtle)
     .duration(30)
-    .EUt(120)
+    .EUt(160)
     .buildAndRegister();
