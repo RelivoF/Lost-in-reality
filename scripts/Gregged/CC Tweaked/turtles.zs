@@ -77,7 +77,7 @@ assembler.recipeBuilder()
     .inputs(stonePlate * 2, computer, storage, thruster)
     .outputs(turtle)
     .duration(30)
-    .EUt(64)
+    .EUt(128)
     .buildAndRegister();
 
 // - Advanced Turtle -
@@ -86,5 +86,5 @@ assembler.recipeBuilder()
     .inputs(goldPlate * 2, advComputer, storage, advThruster)
     .outputs(advTurtle)
     .duration(30)
-    .EUt(128)
+    .EUt(256)
     .buildAndRegister();

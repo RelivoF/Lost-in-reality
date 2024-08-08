@@ -1,0 +1,10 @@
+menu.lir.singleplayer=Play Alone
+menu.lir.singleplayer.hover=Alone Forever
+
+menu.lir.multiplayer=Play Together
+menu.lir.multiplayer.hover=Together Forever
+
+menu.lir.options=Options
+
+menu.lir.quit=Leave
+menu.lir.quit.hover=Why?
