@@ -17,8 +17,8 @@
     {
         "singleplayer":
         {
-            "text" : "Play Alone",
-            "hoverText": "Alone Forever",
+            "text" : "menu.lir.singleplayer",
+            "hoverText": "menu.lir.singleplayer.hover",
             "posX" : 0,
             "posY" : -150,
             "width" : 150,
@@ -34,8 +34,8 @@
        
         "multiplayer":
         {
-            "text" : "Play Together",
-            "hoverText": "Together Forever",
+            "text" : "menu.lir.multiplayer",
+            "hoverText": "menu.lir.multiplayer.hover",
             "posX" : 0,
             "posY" : -120,
             "width" : 150,
@@ -67,7 +67,7 @@
            
         "options":
         {
-            "text" : "Options",
+            "text" : "menu.lir.options",
             "posX" : 0,
             "posY" : -60,
             "width" : 73,
@@ -83,8 +83,8 @@
        
         "quit":
         {
-            "text" : "Leave us",
-            "hoverText": "Sure?",
+            "text" : "menu.lir.quit",
+            "hoverText": "menu.lir.quit.hover",
             "posX" : 77,
             "posY" : -60,
             "width" : 73,

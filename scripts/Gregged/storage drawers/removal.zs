@@ -5,6 +5,9 @@
 
 val drawers = <ore:drawerBasic>;
 val trims = <ore:drawerTrim>;
+val compactingDrawer = <storagedrawers:compdrawers>;
+val drawerController = <storagedrawers:controller>;
+val controllerSlave = <storagedrawers:controllerslave>;
 
 // - Framed - 
 
@@ -27,3 +30,6 @@ recipes.remove(d);
 recipes.remove(e);
 recipes.remove(f);
 recipes.remove(table);
+recipes.remove(compactingDrawer);
+recipes.remove(drawerController);
+recipes.remove(controllerSlave);

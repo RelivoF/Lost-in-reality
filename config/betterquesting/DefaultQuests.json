@@ -64,7 +64,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Help us acheive.",
-          "desc:8": "At the moment only I(Relivof) am working on this modpack,\nbut if you feel there is something that belongs or a bug that is\u0027nt being fixed, \njust join me, help me make your favourite modpack that you\u0027s made.\n\nMost things are powered by their community, make ours MADE by our community."
+          "desc:8": "At the moment only I(Relivof) am working on this modpack,\nbut if you feel there is something that belongs or a bug that isn\u0027t being fixed, \njust join me, help me make your favourite modpack, that you\u0027s made."
         }
       },
       "tasks:9": {
@@ -270,7 +270,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Hardcore tips",
-          "desc:8": "As you progress you might notice the Sync mod, a simple explaination, it is a transport/bioligy mod where you can \"escape\" death.\n This may be explained in future quest."
+          "desc:8": "As you progress you might notice the Sync mod, a simple explaination, it is a transport/bioligy mod where you can \"escape\" death.\n\nThis may be explained in future quest."
         }
       },
       "tasks:9": {},
@@ -809,7 +809,7 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "minecraft:stone_pickaxe",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -820,17 +820,813 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 1,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Stone Pickaxe",
+          "desc:8": "Now you can mine more."
         }
       },
-      "tasks:9": {},
-      "rewards:9": {}
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:stone_pickaxe",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 1,
+              "tag:10": {
+                "hideLootInfo:1": 1
+              },
+              "Damage:2": 75,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "17:10": {
       "questID:3": 17,
       "preRequisites:11": [
         15
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:stone_axe",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Stone tools",
+          "desc:8": "At least it\u0027s better than wood."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:stone_sword",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:stone_axe",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "minecraft:stone_shovel",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 1,
+              "tag:10": {
+                "hideLootInfo:1": 1
+              },
+              "Damage:2": 75,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "18:10": {
+      "questID:3": 18,
+      "preRequisites:11": [
+        16
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:iron_ingot",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "Iron",
+          "desc:8": "Get iron from smelting iron ore in a furnace."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 1,
+              "tag:10": {
+                "hideLootInfo:1": 1
+              },
+              "Damage:2": 75,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:iron_ore",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "19:10": {
+      "questID:3": 19,
+      "preRequisites:11": [
+        25
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_ingot",
+            "Count:3": 1,
+            "Damage:2": 25,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "Copper and tin",
+          "desc:8": "Copper and Tin is used to make bronze, which will start the steam age."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_ingot",
+              "Count:3": 4,
+              "Damage:2": 25,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:meta_ingot",
+              "Count:3": 4,
+              "Damage:2": 112,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_ingot",
+              "Count:3": 4,
+              "Damage:2": 25,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:meta_ingot",
+              "Count:3": 4,
+              "Damage:2": 112,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "20:10": {
+      "questID:3": 20,
+      "preRequisites:11": [
+        25
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:sand",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "Sand and clay",
+          "desc:8": "Sand and clay is used in the making of coke bricks."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:clay_ball",
+              "Count:3": 105,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:sand",
+              "Count:3": 175,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 10,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 0,
+          "index:3": 0
+        }
+      }
+    },
+    "21:10": {
+      "questID:3": 21,
+      "preRequisites:11": [
+        18
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:iron_axe",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Iron tools",
+          "desc:8": "Iron tools are super \"Speedy\"."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_sword",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:iron_pickaxe",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "minecraft:iron_axe",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "minecraft:iron_shovel",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "firstaid:bandage",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "22:10": {
+      "questID:3": 22,
+      "preRequisites:11": [
+        1
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "firstaid:bandage",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "First aid",
+          "desc:8": "The Mod \"First aid\" has been added, it is a \"overhaul\" to normal damage, having damage applied to limbs, not your entire body.\n\nThere are items to heal you.\n\nAs a gift here is some bandages and morphine."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "firstaid:bandage",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "firstaid:morphine",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "23:10": {
+      "questID:3": 23,
+      "preRequisites:11": [
+        25
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_item_1",
+            "Count:3": 1,
+            "Damage:2": 348,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "Form",
+          "desc:8": "A form to make bricks, used for coke oven bricks."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 348,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "24:10": {
+      "questID:3": 24,
+      "preRequisites:11": [
+        1
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:crafting_table",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "JEI",
+          "desc:8": "JEI(Just enough items) will be necessary.\n\nFor example, recipes, I bet you don\u0027t know how to make a coke oven brick, and others.\nEven multiblocks, if you need help making a multiblock structure like the primitive pump, you can press U or R on the main block and it will have a multiblock tab.\n\nAnd expecially you will be using certain recipes ALOT, and just a workbench may not be enough, so you can press A on the item and it will be added to the bookmarks."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "25:10": {
+      "questID:3": 25,
+      "preRequisites:11": [
+        18
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:wrench",
+            "Count:3": 1,
+            "tag:10": {
+              "DisallowContainerItem:1": 0,
+              "GT.Behaviours:10": {},
+              "HideFlags:3": 2,
+              "GT.Tool:10": {
+                "MaxDurability:3": 255,
+                "ToolSpeed:5": 6.0,
+                "AttackDamage:5": 3.0,
+                "Durability:3": 0,
+                "Material:8": "gregtech:iron",
+                "HarvestLevel:3": 2,
+                "AttackSpeed:5": -2.8
+              }
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "Tools",
+          "desc:8": "These tools are useful for making/using gregtech or other mods items/blocks."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:wrench",
+              "Count:3": 1,
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {},
+                "HideFlags:3": 2,
+                "GT.Tool:10": {
+                  "MaxDurability:3": 255,
+                  "ToolSpeed:5": 6.0,
+                  "AttackDamage:5": 3.0,
+                  "Durability:3": 0,
+                  "Material:8": "gregtech:iron",
+                  "HarvestLevel:3": 2,
+                  "AttackSpeed:5": -2.8
+                }
+              },
+              "Damage:2": 0,
+              "OreDict:8": "toolWrench"
+            },
+            "1:10": {
+              "id:8": "gregtech:hammer",
+              "Count:3": 1,
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {},
+                "HideFlags:3": 2,
+                "GT.Tool:10": {
+                  "MaxDurability:3": 255,
+                  "ToolSpeed:5": 6.0,
+                  "AttackDamage:5": 3.0,
+                  "Durability:3": 0,
+                  "Material:8": "gregtech:iron",
+                  "HarvestLevel:3": 2,
+                  "AttackSpeed:5": -2.8
+                }
+              },
+              "Damage:2": 0,
+              "OreDict:8": "toolHammer"
+            },
+            "2:10": {
+              "id:8": "gregtech:mortar",
+              "Count:3": 1,
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {},
+                "HideFlags:3": 2,
+                "GT.Tool:10": {
+                  "MaxDurability:3": 255,
+                  "AttackDamage:5": 0.0,
+                  "Durability:3": 0,
+                  "Material:8": "gregtech:iron",
+                  "HarvestLevel:3": 2,
+                  "AttackSpeed:5": -2.4
+                }
+              },
+              "Damage:2": 0,
+              "OreDict:8": "toolMortar"
+            },
+            "3:10": {
+              "id:8": "gregtech:screwdriver",
+              "Count:3": 1,
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {},
+                "HideFlags:3": 2,
+                "GT.Tool:10": {
+                  "MaxDurability:3": 255,
+                  "AttackDamage:5": 1.0,
+                  "Durability:3": 0,
+                  "Material:8": "gregtech:iron",
+                  "HarvestLevel:3": 2,
+                  "AttackSpeed:5": 3.0
+                }
+              },
+              "Damage:2": 0,
+              "OreDict:8": "toolScrewdriver"
+            },
+            "4:10": {
+              "id:8": "gregtech:crowbar",
+              "Count:3": 1,
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {},
+                "HideFlags:3": 2,
+                "GT.Tool:10": {
+                  "MaxDurability:3": 255,
+                  "ToolSpeed:5": 6.0,
+                  "AttackDamage:5": 4.0,
+                  "Durability:3": 0,
+                  "Material:8": "gregtech:iron",
+                  "HarvestLevel:3": 2,
+                  "AttackSpeed:5": -2.4
+                }
+              },
+              "Damage:2": 0,
+              "OreDict:8": "toolCrowbar"
+            },
+            "5:10": {
+              "id:8": "gregtech:saw",
+              "Count:3": 1,
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {
+                  "HarvestIce:1": 1
+                },
+                "HideFlags:3": 2,
+                "GT.Tool:10": {
+                  "MaxDurability:3": 255,
+                  "AttackDamage:5": 1.0,
+                  "Durability:3": 0,
+                  "Material:8": "gregtech:iron",
+                  "HarvestLevel:3": 2,
+                  "AttackSpeed:5": -2.6
+                }
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "6:10": {
+              "id:8": "gregtech:file",
+              "Count:3": 1,
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {},
+                "HideFlags:3": 2,
+                "GT.Tool:10": {
+                  "MaxDurability:3": 255,
+                  "AttackDamage:5": 0.0,
+                  "Durability:3": 0,
+                  "Material:8": "gregtech:iron",
+                  "HarvestLevel:3": 2,
+                  "AttackSpeed:5": -2.4
+                }
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "7:10": {
+              "id:8": "gregtech:wire_cutter",
+              "Count:3": 1,
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {},
+                "HideFlags:3": 2,
+                "GT.Tool:10": {
+                  "MaxDurability:3": 255,
+                  "ToolSpeed:5": 6.0,
+                  "AttackDamage:5": 1.0,
+                  "Durability:3": 0,
+                  "Material:8": "gregtech:iron",
+                  "HarvestLevel:3": 2,
+                  "AttackSpeed:5": -2.4
+                }
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "8:10": {
+              "id:8": "gregtech:knife",
+              "Count:3": 1,
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {},
+                "HideFlags:3": 2,
+                "GT.Tool:10": {
+                  "MaxDurability:3": 255,
+                  "AttackDamage:5": 2.0,
+                  "Durability:3": 0,
+                  "Material:8": "gregtech:iron",
+                  "AttackSpeed:5": 3.0
+                }
+              },
+              "Damage:2": 0,
+              "OreDict:8": "toolKnife"
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "amount:3": 15,
+          "rewardID:8": "bq_standard:xp",
+          "isLevels:1": 1,
+          "index:3": 0
+        }
+      }
+    },
+    "26:10": {
+      "questID:3": 26,
+      "preRequisites:11": [
+        19
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -852,12 +1648,172 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "New Quest",
           "desc:8": "No Description"
         }
       },
       "tasks:9": {},
+      "rewards:9": {}
+    },
+    "27:10": {
+      "questID:3": 27,
+      "preRequisites:11": [
+        20,
+        23
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_item_1",
+            "Count:3": 1,
+            "Damage:2": 353,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "Coke oven bricks",
+          "desc:8": "The base of the coke oven."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 105,
+              "Damage:2": 353,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "28:10": {
+      "questID:3": 28,
+      "preRequisites:11": [
+        27
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 1017,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "Coke oven",
+          "desc:8": "Now all you need is to craft the blocks needed."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:metal_casing",
+              "Count:3": 25,
+              "Damage:2": 8,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:machine",
+              "Count:3": 1,
+              "Damage:2": 1017,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_gem",
+              "Count:3": 8,
+              "Damage:2": 319,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "29:10": {
+      "questID:3": 29,
+      "preRequisites:11": [
+        1
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:torch",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Main and optional quests.",
+          "desc:8": "The main quests will have a kingdom looking border while the optional quests will have a flat border."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
       "rewards:9": {}
     }
   },
@@ -865,11 +1821,11 @@
     "0:10": {
       "quests:9": {
         "0:10": {
-          "sizeX:3": 24,
-          "x:3": -108,
-          "y:3": -60,
+          "sizeX:3": 48,
+          "x:3": -120,
+          "y:3": -72,
           "id:3": 0,
-          "sizeY:3": 24
+          "sizeY:3": 48
         },
         "1:10": {
           "sizeX:3": 24,
@@ -926,6 +1882,27 @@
           "y:3": -108,
           "id:3": 8,
           "sizeY:3": 24
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "x:3": -204,
+          "y:3": -12,
+          "id:3": 22,
+          "sizeY:3": 24
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "x:3": -168,
+          "y:3": -96,
+          "id:3": 24,
+          "sizeY:3": 24
+        },
+        "11:10": {
+          "sizeX:3": 24,
+          "x:3": -168,
+          "y:3": -24,
+          "id:3": 29,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 0,
@@ -949,11 +1926,11 @@
     "1:10": {
       "quests:9": {
         "0:10": {
-          "sizeX:3": 24,
-          "x:3": -84,
-          "y:3": -48,
+          "sizeX:3": 48,
+          "x:3": -96,
+          "y:3": -60,
           "id:3": 9,
-          "sizeY:3": 24
+          "sizeY:3": 48
         },
         "1:10": {
           "sizeX:3": 24,
@@ -1010,13 +1987,76 @@
           "y:3": 48,
           "id:3": 17,
           "sizeY:3": 24
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "x:3": 96,
+          "y:3": 84,
+          "id:3": 18,
+          "sizeY:3": 24
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "x:3": 180,
+          "y:3": 48,
+          "id:3": 19,
+          "sizeY:3": 24
+        },
+        "11:10": {
+          "sizeX:3": 24,
+          "x:3": 168,
+          "y:3": 12,
+          "id:3": 20,
+          "sizeY:3": 24
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "x:3": 132,
+          "y:3": 120,
+          "id:3": 21,
+          "sizeY:3": 24
+        },
+        "13:10": {
+          "sizeX:3": 24,
+          "x:3": 96,
+          "y:3": 12,
+          "id:3": 23,
+          "sizeY:3": 24
+        },
+        "14:10": {
+          "sizeX:3": 24,
+          "x:3": 132,
+          "y:3": 48,
+          "id:3": 25,
+          "sizeY:3": 24
+        },
+        "15:10": {
+          "sizeX:3": 24,
+          "x:3": 228,
+          "y:3": 48,
+          "id:3": 26,
+          "sizeY:3": 24
+        },
+        "16:10": {
+          "sizeX:3": 24,
+          "x:3": 132,
+          "y:3": -24,
+          "id:3": 27,
+          "sizeY:3": 24
+        },
+        "17:10": {
+          "sizeX:3": 24,
+          "x:3": 132,
+          "y:3": -72,
+          "id:3": 28,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 1,
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "NORMAL",
-          "name:8": "Beginnings",
+          "name:8": "Primitive",
           "icon:10": {
             "id:8": "minecraft:stone",
             "Count:3": 1,
