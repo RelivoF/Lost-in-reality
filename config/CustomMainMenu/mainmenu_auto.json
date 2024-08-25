@@ -95,6 +95,41 @@
             {
                 "type" : "quit"
             }
+        },
+
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -154,
+            "posY" : 132,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" :
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+
+    "texts":
+    {
+        "mojang":
+        {
+            "text" : "menu.lir.mojang",
+            "posX" : 2,
+            "posY" : 0,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        },
+       
+        "fml":
+        {
+            "text" : "",
+            "posX" : 2,
+            "posY" : -100,
+            "color" : -1,
+            "alignment" : "column_right"
         }
     },
    
@@ -115,7 +150,19 @@
 		"column_bottom": {
 			"factorWidth": 0.1,
 			"factorHeight": 0.95
-		}
+		},
+
+        "c1":
+        {
+            "factorWidth" : 0.5,
+            "factorHeight" : 0.7
+        },
+ 
+        "c2":
+        {
+            "factorWidth" : 0.2,
+            "factorHeight" : 0.2
+        }
     },
    
     "other":
