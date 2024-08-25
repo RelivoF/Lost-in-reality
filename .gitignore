@@ -19,3 +19,5 @@ config/jei/itemBlacklist.cfg
 config/jei/jei.cfg
 config/jei/searchColors.cfg
 config/jei/worldSettings.cfg
+config/gregtech/terminal/ore_prospector
+backups

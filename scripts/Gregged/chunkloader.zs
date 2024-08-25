@@ -36,13 +36,13 @@ recipes.remove(ultimateChunkLoader);
 
 recipes.addShaped(basicChunkLoader, [
     [wrench, obsidianPlate, hammer],
-    [obsidianPlate, enderPearl, obsidianPlate]
+    [obsidianPlate, enderPearl, obsidianPlate],
     [null, obsidianPlate, null]
 ]);
 
 recipes.addShaped(basicChunkLoader, [
     [singleChunkLoader, singleChunkLoader, singleChunkLoader],
-    [singleChunkLoader, singleChunkLoader, singleChunkLoader]
+    [singleChunkLoader, singleChunkLoader, singleChunkLoader],
     [singleChunkLoader, singleChunkLoader, singleChunkLoader]
 ]);
 
@@ -55,7 +55,7 @@ recipes.addShaped(advancedChunkLoader, [
 recipes.addShaped(ultimateChunkLoader, [
     [wrench, diamondPlate, hammer],
     [eyeOfEnder, advancedChunkLoader, eyeOfEnder],
-    [null diamondPlate, null]
+    [null, diamondPlate, null]
 ]);
 
 // - Assembler -
@@ -83,8 +83,8 @@ assembler.recipeBuilder()
 
 // - Cutter -
 
-Cutter.recipeBuilder()
-    .inputs(basic_chunk_loader)
+cutter.recipeBuilder()
+    .inputs(basicChunkLoader)
     .fluidInputs([<liquid:water> * 350])
     .outputs(singleChunkLoader * 9)
     .duration(120)
