@@ -6,6 +6,7 @@ saves
 screenshots
 crash-reports
 journeymap
+local
 
 # files
 *.curseclient
