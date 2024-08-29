@@ -60,13 +60,16 @@ recipes.remove(craftingTable);
 recipes.remove(enchantingTable);
 recipes.remove(anvil);
 
+// Crafting Table * 1
+<recipemap:assembler>.findRecipe(6, [<metaitem:circuit.integrated>.withTag({Configuration: 4}), <metaitem:plateWood> * 4], null).remove();
+
 // - Crafting Table -
 
 // - Crafting Table -
 
 recipes.addShaped(craftingTable, [
-    [flint, flint],
-    [wood, wood]
+    [flint],
+    [wood]
 ]);
 
 // - enchanting Table -
@@ -108,7 +111,7 @@ assembler.recipeBuilder()
 // - Anvil -
 
 assembler.recipeBuilder()
-    .inputs(ironBlock * 2, ironBlock * 3)
+    .inputs(ironBlock * 2, ironPlate * 3)
     .outputs(anvil)
     .duration(80)
     .EUt(32)
