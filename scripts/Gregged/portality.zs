@@ -45,6 +45,12 @@ val battery = <gregtech:battery_block>;
 recipes.remove(portalFrame);
 recipes.remove(portalController);
 recipes.remove(dimenModule);
+recipes.remove(itemModule0);
+recipes.remove(itemModule1);
+recipes.remove(fluidModule0);
+recipes.remove(fluidModule1);
+recipes.remove(energyModule0);
+recipes.remove(energyModule1);
 
 // - Assembler -
 

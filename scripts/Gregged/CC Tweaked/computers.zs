@@ -44,8 +44,6 @@ val goldPlate = <ore:plateGold>;
 val annealedCopperWire = <ore:wireGtSingleAnnealedCopper>;
 val blueAlloyWire = <ore:wireGtSingleBlueAlloy>;
 
-
-
 // - Recipes -
 
 // - Removal -
