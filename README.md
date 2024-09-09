@@ -8,5 +8,7 @@ Play to find out more...
 
 The modpack is heavily focused on exploration, survival, and discovery. It is designed to be a challenging and rewarding experience. So, if you are ready to embark on an adventure like no other, then play Lost in Reality.
 
+[INFO](https://github.com/Inter-Reality-Control-Committee/Lost-in-reality/blob/main/info/DOC.md)
+
 ## DISCLAIMER
 The Quest Book will not be finished in the first updates
