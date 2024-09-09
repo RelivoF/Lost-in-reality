@@ -1,6 +1,6 @@
 # Mods used in Lost in Reality
 
-All mods are owned/operated by the respected creater/maintaners.
+All mods are owned/operated by the respective creater/maintaners.
 
 Ambience
 AppleSkin
@@ -51,3 +51,6 @@ SuperMartinjin642's Core Lib
 Sync
 Tips
 Universal Tweaks
+
+### DISCLAIMER
+#### This may not be updated for a while (it takes a LONG time)
