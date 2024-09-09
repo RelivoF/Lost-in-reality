@@ -26,7 +26,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "What am I?",
-          "desc:8": "§2§0§fYou might be wondering who you are?\n\nWell you are in Experiment 114(Lost In Realities), run by the Inter Reality Control Committee(IRCC).\nYour reality is §aNI2398§f.§f§f\n\n§0§f§f\n\nName: §aRaelon Trukit§f\n\n§0§fSex: §aMale§f\n\nHeight: §a6\"1\n\n§0§fA§fge: §a19§f\n\n§0§fOriginal Reality: §aOR0000§a\n\n\n\n§9More Information at the IRCC Website(Not finished)"
+          "desc:8": "§2§0§fYou might be wondering who you are?\n\nWell you are in Experiment 114(Lost In Realities), run by the Inter Reality Control Committee(IRCC).\nYour reality designated §aNI2398§f.§f§f\n\n§0§f§f\n\nName: §aRaelon Trukit§f\n\n§0§fSex: §aMale§f\n\nHeight: §a6\"1\n\n§0§fA§fge: §a19§f\n\n§0§fOriginal Reality: §aOR0000§a\n\n\n\n§9More Information at the IRCC Website(Not finished)"
         }
       },
       "tasks:9": {
@@ -2172,6 +2172,57 @@
           }
         }
       }
+    },
+    "33:10": {
+      "questID:3": 33,
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_item_1",
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "The Shop",
+          "desc:8": "Are you too tired to make a circuit for the millionth time,\n\nthen no worries, let us present the Shop...\n\nGrab your coins and your shop key and walk over to the nearest crafting table, where you can insert some coins and your key in the center, and out pops an item.\n\n\nDONT LOSE THE KEY, IT IS NOT CRAFTABLE/OBTAINABLE."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "lirgroovy:shopkey",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -2259,6 +2310,13 @@
           "x:3": -168,
           "y:3": -24,
           "id:3": 29,
+          "sizeY:3": 24
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": -120,
+          "id:3": 33,
           "sizeY:3": 24
         }
       },
@@ -2476,7 +2534,7 @@
       "pack_name:8": "Lost in Reality",
       "home_anchor_y:5": 0.0,
       "livesmax:3": 10,
-      "home_anchor_x:5": 0.5,
+      "home_anchor_x:5": 0.0,
       "editmode:1": 1,
       "hardcore:1": 0,
       "home_image:8": "lost_in_reality:textures/gui/title_card.png",
