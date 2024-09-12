@@ -11,4 +11,4 @@ The modpack is heavily focused on exploration, survival, and discovery. It is de
 [INFO](https://github.com/Inter-Reality-Control-Committee/Lost-in-reality/blob/main/info/DOC.md)
 
 ## DISCLAIMER
-The Quest Book will not be finished in the first updates
+The Quest Book will not be finished in the first couple updates
