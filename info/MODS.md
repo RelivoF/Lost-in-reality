@@ -2,20 +2,20 @@
 
 All mods are owned/operated by the respective creater/maintaners.
 
-Ambience
-AppleSkin
-AutoRegLib
-Better Advancements
-Better Invisibility
-Better Questing
-Better Questing - Quest Book
-Better Questing - Standerd Expansion
-Better Third Person
-CC Tweaked
-Chameleon
-Cherished Worlds
-Chunk Loaders
-Clumps
+* Ambience
+* AppleSkin
+* AutoRegLib
+* Better Advancements
+* Better Invisibility
+* Better Questing
+* Better Questing - Quest Book
+* Better Questing - Standerd Expansion
+* Better Third Person
+* CC Tweaked
+* Chameleon
+* Cherished Worlds
+* Chunk Loaders
+* Clumps
 CodeChicken Lib 1.8+
 Collective
 ConfigAnytime
