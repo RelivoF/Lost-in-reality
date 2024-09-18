@@ -1,6 +1,21 @@
 // - Created by Revilof - 
 // - For Lost in reality -
 
+// - Import -
+
+import mods.gregtech.recipe.RecipeMap;
+
+// - Functions -
+
+function diskAssembler(item as IItemStack, dye as IOreDictEntry) {
+    <RecipeMap:assembler>.recipeBuilder()
+        .inputs(dye, <ore:ingotSteelMagnetic>, <ore:platePlastic>)
+        .outputs(item)
+        .duration(10)
+        .EUt(16)
+        .buildAndRegister();
+}
+
 // - Variables -
 
 // - Blocks -
